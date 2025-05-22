@@ -1,0 +1,2098 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "¿Cómo estás?",
+        "Hola, ¿qué tal?",
+        "¡Saludos!",
+        "¡Qué gusto verte!",
+        "¡Hola, amigo!",
+        "¿Qué hay de nuevo?",
+        "¡Hey!",
+        "Hola, ¿cómo va todo?",
+        "¡Hola! ¿Cómo ha estado?",
+        "¡Hola, qué alegría verte!",
+        "Hola, ¿todo bien?",
+        "Hola, ¿cómo te sientes hoy?",
+        "Hola, ¿qué haces?",
+        "Hola, ¿puedo ayudarte en algo?",
+        "¿Hola, qué planes para hoy?",
+        "¡Hola! ¿Preparado para un nuevo día?",
+        "¡Hola! ¿Listo para comenzar?",
+        "Hola, espero que estés bien",
+        "¡Qué tal!",
+        "Hola, ¿cómo va tu día?",
+        "Hola, ¿cómo va la semana?",
+        "Hola, ¿alguna novedad?",
+        "¡Hola! ¿Algún plan para hoy?",
+        "¿Hola, cómo estás hoy?",
+        "¡Buenas! ¿Qué tal?",
+        "¡Hola! ¿Todo en orden?",
+        "¡Hola, cuánto tiempo sin verte!",
+        "Hola, ¿qué te trae por aquí?",
+        "¡Hola! ¿Necesitas algo?",
+        "Hola, ¿cómo puedo ayudarte?",
+        "¡Hola! ¿Algo que quieras compartir?",
+        "Hola, ¿qué noticias me cuentas?",
+        "¡Hola! ¿Cómo te va?",
+        "¡Hola! Un placer verte",
+        "¡Hola! ¿Qué necesitas?",
+        "Hola, ¿listo para hoy?",
+        "Hola, ¿qué te ocupa hoy?",
+        "Hola, ¿algo interesante hoy?",
+        "Hola, ¿en qué puedo ser útil?",
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "Hola, ¿hay algo para mí?",
+        "¡Hola! ¿Qué está pasando?",
+        "Hola, cuéntame algo",
+        "¡Hola! ¿Alguna ayuda que necesites?",
+        "Hola, ¿cómo va tu semana?",
+        "¡Hola! ¿Algo nuevo por aquí?",
+        "Hola, ¿cómo va todo por allí?",
+        "Hola, ¡espero que tengas un buen día!",
+        "¡Hola! ¿Hay algo que te preocupe?"
+      ],
+      "responses": [
+        "Hola, ¿en qué puedo ayudarte?",
+        "¡Hola! ¿En qué puedo ayudarte hoy?",
+        "¡Hola! ¿Cómo te va?",
+        "¡Saludos! ¿Necesitas algo?",
+        "¡Hola! ¿Qué tal tu día?",
+        "¡Buenas! ¿Cómo estás?",
+        "¡Hola! ¿Qué te trae por aquí?",
+        "¡Hola! ¿Todo bien?",
+        "¡Buenas! ¿Cómo puedo asistirte?",
+        "¡Hola! ¿Qué necesitas hoy?",
+        "¡Hola! Cuéntame, ¿cómo puedo ayudarte?",
+        "¡Hola! Siempre es un placer ayudarte.",
+        "Hola, dime, ¿en qué te puedo ser útil?",
+        "¡Hola! ¿Hay algo específico que necesites?",
+        "¡Hola! Aquí para ayudarte, ¿qué necesitas?",
+        "¡Hola! Espero que todo esté bien, ¿cómo puedo ayudarte?",
+        "¡Hola! ¿Algo que necesites discutir?",
+        "¡Hola! Estoy aquí para lo que necesites, ¿qué tal?",
+        "Hola, dime, ¿hay algo con lo que pueda ayudarte?",
+        "¡Hola! Si necesitas algo, solo dime.",
+        "Hola, ¿en qué puedo ayudarte hoy?",
+        "¡Hola! Estoy aquí para asistirte, ¿qué necesitas?",
+        "¡Hola! ¿Cómo puedo hacer tu día mejor?",
+        "Hola, estoy aquí para ayudar, ¿qué necesitas?",
+        "¡Hola! Aquí estoy, ¿cómo puedo asistirte hoy?",
+        "¡Hola! Estoy listo para ayudarte, ¿qué necesitas?",
+        "¡Hola! Dime cómo puedo ser de ayuda.",
+        "¡Hola! ¿Hay algo en lo que te pueda ayudar?",
+        "¡Hola! Siempre dispuesto a ayudar, ¿qué necesitas?",
+        "¡Hola! Estoy aquí para lo que necesites, dime.",
+        "Hola, ¿hay algo que pueda hacer por ti hoy?",
+        "¡Hola! Aquí para servirte, ¿qué necesitas?",
+        "¡Hola! Espero poder ayudarte, ¿qué necesitas?",
+        "¡Hola! Listo para ayudarte, ¿cómo puedo asistirte?",
+        "¡Hola! ¿Qué puedo hacer por ti hoy?",
+        "¡Hola! Siempre listo para ayudar, ¿qué necesitas?",
+        "¡Hola! Dime, ¿en qué puedo ayudarte hoy?",
+        "¡Hola! Aquí para lo que necesites, ¿qué tal?",
+        "Hola, estoy a tu servicio, ¿cómo puedo ayudarte?",
+        "¡Hola! Dime cómo puedo facilitarte el día.",
+        "¡Hola! Estoy aquí para ayudarte, ¿qué necesitas?",
+        "¡Hola! ¿Cómo puedo ser útil hoy?",
+        "¡Hola! Siempre listo para ayudar, ¿qué te trae por aquí?",
+        "¡Hola! ¿Qué necesitas?",
+        "Hola, ¿en qué puedo ser útil hoy?",
+        "¡Hola! Listo para asistirte, ¿qué necesitas?",
+        "¡Hola! Estoy aquí para ayudarte, ¿qué necesitas hoy?",
+        "¡Hola! ¿Cómo puedo hacer tu experiencia mejor hoy?",
+        "¡Hola! Estoy aquí, ¿qué necesitas?",
+        "¡Hola! ¿En qué puedo ayudarte hoy?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Adiós",
+        "Hasta luego",
+        "Nos vemos",
+        "Chao",
+        "¡Nos vemos pronto!",
+        "¡Adiós! Que tengas un buen día.",
+        "¡Hasta pronto!",
+        "¡Nos vemos!",
+        "¡Adiós! Que te vaya bien.",
+        "¡Cuídate mucho!",
+        "¡Hasta la próxima!",
+        "¡Hasta la vista!",
+        "¡Nos vemos más tarde!",
+        "¡Que tengas un buen fin de semana!",
+        "Te veo luego",
+        "Espero verte pronto",
+        "Hasta otra",
+        "Cuídese",
+        "Te deseo lo mejor",
+        "Hasta otro momento",
+        "Espero que nos veamos pronto",
+        "Fue un placer charlar contigo",
+        "Te veo la próxima vez",
+        "Espero que todo te vaya bien",
+        "Espero que tengas éxito",
+        "Me alegró verte",
+        "Siempre es un placer verte",
+        "Espero que sigas bien",
+        "Te deseo suerte",
+        "Adiós por ahora",
+        "Hasta la próxima oportunidad",
+        "Nos vemos en otra ocasión",
+        "Espero que sigas bien",
+        "Hasta nuestra próxima charla",
+        "Despídete de todos por mí",
+        "Me alegra haber podido ayudarte",
+        "Gracias por tu tiempo",
+        "Adiós, cuídate mucho",
+        "Fue genial hablar contigo",
+        "Espero que sigamos en contacto",
+        "Si necesitas algo, ya sabes dónde encontrarme",
+        "Gracias por la charla",
+        "Adiós, fue un placer",
+        "Hasta pronto, cuídate",
+        "Adiós, espero que todo vaya bien",
+        "Nos vemos pronto, cuídate",
+        "Hasta la próxima, fue un placer",
+        "Despídete por ahora",
+        "Gracias por venir",
+        "Adiós, que estés bien"
+      ],
+      "responses": [
+        "¡Hasta luego!",
+        "¡Nos vemos pronto!",
+        "¡Adiós! Que tengas un buen día.",
+        "¡Hasta pronto!",
+        "¡Nos vemos!",
+        "¡Adiós! Que te vaya bien.",
+        "¡Cuídate mucho!",
+        "¡Hasta la próxima!",
+        "¡Hasta la vista!",
+        "¡Nos vemos más tarde!",
+        "¡Que tengas un buen fin de semana!",
+        "¡Adiós por ahora!",
+        "¡Cuídate! Espero verte pronto.",
+        "¡Fue un placer hablar contigo!",
+        "¡Nos vemos la próxima vez!",
+        "¡Te deseo todo lo mejor!",
+        "¡Gracias por tu visita!",
+        "¡Siempre es un placer verte!",
+        "¡Espero que sigas bien!",
+        "¡Te deseo suerte en todo!",
+        "¡Adiós, espero que sigamos en contacto!",
+        "¡Cuídate y hasta la próxima!",
+        "¡Espero que tengas éxito en lo que hagas!",
+        "¡Hasta otro día!",
+        "¡Nos vemos en otra ocasión!",
+        "¡Adiós, cuídate mucho!",
+        "¡Te veo luego!",
+        "¡Espero que todo te vaya bien!",
+        "¡Hasta la próxima oportunidad!",
+        "¡Gracias por la charla!"
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Te agradezco",
+        "Aprecio tu ayuda",
+        "Gracias por tu apoyo",
+        "Estoy agradecido",
+        "Agradezco mucho esto",
+        "Eres muy amable",
+        "Gracias por todo",
+        "Te lo agradezco mucho",
+        "Mil gracias",
+        "Estoy muy agradecido",
+        "Realmente aprecio tu ayuda",
+        "Gracias por tu tiempo",
+        "Gracias, eso fue muy útil",
+        "Gracias, me has sido de gran ayuda",
+        "Gracias por la información",
+        "Agradezco tu paciencia",
+        "Gracias por escucharme",
+        "Gracias por estar aquí",
+        "Agradezco mucho tu apoyo",
+        "Gracias, no sabes cuánto te lo agradezco",
+        "Gracias de corazón",
+        "Te estoy muy agradecido",
+        "Gracias, has sido de gran ayuda",
+        "Gracias por tu consejo",
+        "Gracias por la ayuda",
+        "Gracias, fue perfecto",
+        "Gracias por tu colaboración",
+        "Gracias por tu asistencia"
+      ],
+      "responses": [
+        "De nada, estoy aquí para ayudarte.",
+        "¡No hay de qué! Si necesitas algo más, no dudes en preguntar.",
+        "Es un placer ayudarte. Si tienes más preguntas, aquí estaré.",
+        "Siempre a tu servicio. No hay de qué.",
+        "Estoy feliz de haber podido ayudarte. ¡No dudes en volver si necesitas más ayuda!",
+        "Es un placer asistirte. ¡Gracias a ti por confiar en mí!",
+        "¡De nada! Estoy aquí para lo que necesites.",
+        "Siempre dispuesto a ayudar. ¡Gracias por tu mensaje!",
+        "De nada, siempre estoy aquí para ofrecer mi apoyo.",
+        "Tu agradecimiento es muy apreciado. ¡Estoy aquí siempre que me necesites!",
+        "De nada. Es gratificante saber que he sido de ayuda."
+      ]
+    },
+    {
+      "tag": "java_definicion",
+      "patterns": [
+        "¿Qué es Java?",
+        "Definición de Java",
+        "Explícame qué es Java",
+        "¿Puedes decirme qué es Java?",
+        "¿Qué significa Java?",
+        "Dime más sobre Java",
+        "Java definición",
+        "Descripción de Java",
+        "¿Qué se entiende por Java?",
+        "Caracteriza a Java",
+        "¿Cómo definirías Java?",
+        "¿Qué es Java en programación?",
+        "¿Qué es Java en el contexto de la programación?",
+        "¿Qué es exactamente Java?",
+        "¿Cuál es la definición de Java?"
+      ],
+      "responses": [
+        "Java es un lenguaje de programación y una plataforma informática que fue lanzada por primera vez por Sun Microsystems en 1995. Es conocido por ser robusto, seguro y portátil, lo que permite que aplicaciones escritas en Java se puedan ejecutar en cualquier dispositivo que tenga la máquina virtual de Java (JVM).",
+        "Java es un lenguaje de programación orientado a objetos diseñado para ser portátil a través de plataformas gracias a la máquina virtual de Java (JVM). Se utiliza ampliamente para desarrollar aplicaciones de software en laptops, data centers, consolas de juegos, dispositivos científicos, teléfonos móviles y más.",
+        "Java es un lenguaje de programación desarrollado por Sun Microsystems en 1995, que se caracteriza por su independencia de plataforma. Esto se debe a que Java se ejecuta en una máquina virtual (JVM), que permite operar el mismo código en múltiples sistemas operativos."
+      ]
+    },
+    {
+      "tag": "java_ejemplo",
+      "patterns": [
+        "Ejemplo de código en Java.",
+        "¿Puedes darme un ejemplo de Java?",
+        "Dame un código en Java",
+        "Necesito un ejemplo de Java",
+        "¿Tienes un ejemplo en Java?",
+        "Muéstrame un código de Java",
+        "Ejemplo simple en Java",
+        "¿Cómo se escribe en Java?",
+        "Quiero ver un código en Java",
+        "Código Java de muestra"
+      ],
+      "responses": [
+        "Aquí tienes un ejemplo de código en Java:\n\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"¡Hola, mundo!\");\n    }\n}",
+        "Aquí tienes un ejemplo de suma de dos números en Java:\n\npublic class Suma {\n public static void main(String[] args) {\n int primerNumero = 5;\n int segundoNumero = 10;\n int suma = primerNumero + segundoNumero;\n System.out.println(\"La suma es: \" + suma);\n}\n}",
+        "Estructura condicional (if-else):\n\n public class TestCondicion {\n    public static void main(String[] args) {\n        int numero = 4;\n        if (numero % 2 == 0) {\n            System.out.println(numero + \" es par.\");\n        } else {\n            System.out.println(numero + \" es impar.\");\n        }\n    }\n}",
+        "Bucle for: \n public class BucleFor {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 10; i++) {\n            System.out.println(i);\n        }\n    }\n}",
+        "Uso de array: \n\npublic class ArrayNombres {\n    public static void main(String[] args) {\n        String[] nombres = {\"Ana\", \"Luis\", \"Carlos\"};\n        for (String nombre : nombres) {\n            System.out.println(nombre);\n        }\n    }\n}",
+        "Cálculo de factorial: \n\npublic class Factorial {\n    public static int calcularFactorial(int n) {\n        if (n == 0) {\n            return 1;\n        } else {\n            return n * calcularFactorial(n - 1);\n        }\n    }\n\n    public static void main(String[] args) {\n        int resultado = calcularFactorial(5);\n        System.out.println(\"El factorial de 5 es \" + resultado);\n    }\n}",
+        "Switch case:\n\n public class TestSwitch {\n    public static void main(String[] args) {\n        int opcion = 2;\n        switch (opcion) {\n            case 1:\n                System.out.println(\"Opción 1 seleccionada: Archivo\");\n                break;\n            case 2:\n                System.out.println(\"Opción 2 seleccionada: Guardar\");\n                break;\n            case 3:\n                System.out.println(\"Opción 3 seleccionada: Salir\");\n                break;\n            default:\n                System.out.println(\"Opción inválida\");\n                break;\n        }\n    }\n}",
+        "Clase con método: \n\npublic class Persona {\n    private String nombre;\n\n    public Persona(String nombre) {\n        this.nombre = nombre;\n    }\n\n    public void saludar() {\n        System.out.println(\"Hola, mi nombre es \" + nombre);\n    }\n\n    public static void main(String[] args) {\n        Persona persona = new Persona(\"Juan\");\n        persona.saludar();\n    }\n}",
+        "Lectura de datos del usuario:\n\nimport java.util.Scanner;\n\npublic class LeerDatos {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Ingresa tu nombre: \");\n        String nombre = scanner.nextLine();\n        System.out.println(\"Hola, \" + nombre);\n    }\n}",
+        "Uso de listas:\n\nimport java.util.ArrayList;\nimport java.util.List;\n\npublic class ListaNombres {\n    public static void main(String[] args) {\n        List<String> nombres = new ArrayList<>();\n        nombres.add(\"Ana\");\n        nombres.add(\"Luis\");\n        nombres.add(\"Carlos\");\n        for (String nombre : nombres) {\n            System.out.println(nombre);\n        }\n    }\n}"
+      ]
+    },
+    {
+      "tag": "java_actividad",
+      "patterns": [
+        "Actividad para practicar Java.",
+        "¿Qué actividad puedo hacer para practicar Java?",
+        "Ejercicio para practicar Java.",
+        "Dame un ejercicio de Java para practicar.",
+        "¿Tienes alguna práctica en Java?",
+        "Necesito una actividad para Java.",
+        "Ejercicio práctico de Java.",
+        "Actividad de Java para mejorar.",
+        "¿Algún ejercicio para mejorar en Java?",
+        "Práctica recomendada en Java.",
+        "¿Qué ejercicio práctico puedo hacer en Java?",
+        "Ejemplo de actividad para practicar Java.",
+        "Quiero practicar Java, ¿qué puedo hacer?",
+        "Propuesta de actividad para Java.",
+        "Ejercicio interesante en Java."
+      ],
+      "responses": [
+        "Una buena actividad para practicar Java podría ser desarrollar un programa que gestione una agenda de contactos. Puedes permitir agregar, eliminar y buscar contactos. ¡Es genial para familiarizarse con colecciones y manejo de datos!",
+        "¿Qué tal crear un programa que calcule el promedio de una serie de notas ingresadas por el usuario? Al final, podrías clasificar el rendimiento como \"Excelente\", \"Bueno\", \"Regular\" o \"Insuficiente\". Es una excelente forma de trabajar con estructuras condicionales.",
+        "Te recomiendo desarrollar una calculadora simple que realice operaciones básicas como suma, resta, multiplicación y división. ¡Introduce los números y operaciones a través de la consola para hacerlo más interactivo!",
+        "Un ejercicio divertido podría ser desarrollar un juego en Java donde el programa elija un número al azar entre 1 y 100, y el usuario debe adivinarlo. ¡Cada intento debe indicar si el número es mayor o menor que el número secreto!",
+        "Para algo más avanzado, intenta crear un sistema de gestión de inventarios. Puedes registrar productos, actualizar cantidades y generar reportes de stock. ¡Es perfecto para practicar con clases, listas y archivos!",
+        "Desarrollar un simulador de cajero automático sería una actividad muy interesante. Permite a los usuarios realizar consultas de saldo, retiros, depósitos y transferencias entre cuentas ficticias. ¡No olvides manejar excepciones como saldo insuficiente!",
+        "Una actividad práctica y útil podría ser desarrollar un sistema para reservar entradas de cine o teatro. Los usuarios pueden elegir la película, la hora y seleccionar asientos. ¡Puedes incluso mostrar diferentes precios según la ubicación!",
+        "¿Qué te parece un programa que convierta diferentes unidades de medida como temperatura, longitud y peso? El usuario ingresa el valor y la unidad, y el programa devuelve las conversiones a otras unidades relevantes. ¡Muy útil y educativo!",
+        "Crear un generador de horarios para estudiantes también es una gran actividad. Permite ingresar los cursos y organiza un horario semanal evitando solapamientos y optimizando los tiempos de descanso. ¡Es un excelente ejercicio de organización y lógica!",
+        "Por último, podrías programar un pequeño blog en Java donde los usuarios puedan publicar artículos, editarlos y eliminarlos, además de agregar comentarios. ¡Es un proyecto completo que abarca muchas áreas diferentes de la programación!",
+        "¿Te gustaría un desafío más interactivo? Prueba crear un chatbot en Java. Puede responder a preguntas básicas y aprender nuevas respuestas. ¡Perfecto para practicar estructuras de datos y lógica de conversación!",
+        "Para practicar interfaces gráficas, intenta desarrollar un editor de texto básico usando Java Swing. Incluye funcionalidades como abrir, editar y guardar archivos de texto. ¡Es una excelente manera de aprender sobre GUIs!",
+        "¿Qué tal un juego de Tic-Tac-Toe? Puedes programar la lógica del juego y crear una interfaz gráfica para que dos jugadores puedan jugar. ¡Es un ejercicio divertido y desafiante!",
+        "Otra idea interesante es desarrollar una aplicación que lea y escriba en una base de datos. Podrías crear una pequeña aplicación de gestión de libros que permita agregar, buscar y eliminar libros de una base de datos.",
+        "Finalmente, una actividad avanzada sería crear un servidor de chat en Java. Permite que múltiples usuarios se conecten y envíen mensajes en tiempo real. ¡Es una gran manera de aprender sobre redes y concurrencia!"
+      ]
+    },
+    {
+      "tag": "java_error_handling",
+      "patterns": [
+        "¿Cómo manejo errores en Java?",
+        "Ejemplos de manejo de excepciones en Java",
+        "Uso de try-catch en Java",
+        "Explicación de try-catch-finally en Java",
+        "¿Qué son las excepciones en Java?",
+        "Manejo de errores en programas Java",
+        "¿Cómo capturar errores en Java?",
+        "Técnicas de manejo de excepciones en Java",
+        "Prácticas recomendadas para errores en Java",
+        "¿Cómo uso finally en Java?",
+        "Explicación del bloque try en Java",
+        "Usos de catch en Java",
+        "Errores comunes en Java y cómo manejarlos",
+        "Diferencia entre error y excepción en Java",
+        "Manejar múltiples excepciones en Java",
+        "Errores de tiempo de ejecución en Java",
+        "Captura de excepciones específicas en Java",
+        "Manejo de excepciones no controladas en Java",
+        "Estrategias para manejo de errores en Java",
+        "Errores de I/O en Java y su manejo",
+        "Implementación de manejo de errores en Java",
+        "Uso de bloques try anidados en Java",
+        "Excepciones personalizadas en Java",
+        "Cómo lanzar una excepción en Java",
+        "Capturar varias excepciones en un solo catch en Java",
+        "Consejos para el manejo eficaz de errores en Java",
+        "Tutorial sobre excepciones en Java",
+        "Clases de excepción en Java",
+        "Herencia en excepciones de Java",
+        "Java y el manejo de errores de sistema",
+        "Registro de errores en aplicaciones Java",
+        "Evitar fugas de recursos con finally en Java",
+        "Manejo de errores en aplicaciones Java multihilo",
+        "Excepciones comprobadas versus no comprobadas en Java",
+        "Validación de datos y manejo de errores en Java",
+        "Uso de Assertions en Java para manejo de errores",
+        "Patrones de diseño para manejo de errores en Java",
+        "Cómo evitar el manejo de excepciones en Java",
+        "Optimización del manejo de errores en código Java",
+        "Documentación de excepciones en métodos Java",
+        "Manejo de errores en aplicaciones Java grandes",
+        "Refactorización de código para mejorar el manejo de errores",
+        "Mejores prácticas de codificación para errores en Java",
+        "Cómo tratar con errores de red en aplicaciones Java",
+        "Manejo de la concurrencia y errores en Java",
+        "Debugging y manejo de errores en Java",
+        "Gestión de estados de error en aplicaciones Java",
+        "Control de flujo de programas Java con excepciones",
+        "Análisis de impacto de errores en aplicaciones Java",
+        "Métodos para reducir errores en desarrollo Java"
+      ],
+      "responses": [
+        "Para manejar errores en Java, utiliza bloques try-catch. Coloca el código que puede generar un error dentro de \"try\" y captura el error en \"catch\".",
+        "El manejo de excepciones en Java se realiza a través de los bloques try, catch y finally. \"Try\" ejecuta el código, \"catch\" maneja errores, y \"finally\" se ejecuta siempre.",
+        "Cuando trabajes con Java, maneja las excepciones utilizando try-catch para capturar errores y evitar que el programa falle completamente.",
+        "Usa try-catch-finally en Java para manejar errores de manera eficiente. El bloque finally siempre se ejecuta, garantizando la limpieza de recursos.",
+        "Las excepciones en Java son problemas que ocurren durante la ejecución del programa. Usar try-catch permite manejar estos de forma segura.",
+        "Para capturar errores específicos en Java, usa múltiples bloques catch después de un solo try, cada uno capturando diferentes tipos de excepciones.",
+        "Practica el manejo de errores en Java utilizando try-catch para entender mejor cómo responder a diferentes errores y excepciones.",
+        "En Java, es importante diferenciar entre errores controlados por excepciones y errores irrecuperables que son representados por errores y afirmaciones.",
+        "Manejar múltiples excepciones en Java te permite escribir código más seguro y robusto, asegurándote de que tu aplicación pueda manejar varios fallos.",
+        "Los errores de tiempo de ejecución en Java pueden ser capturados usando bloques de excepciones que ayudan a mantener tu programa en ejecución incluso cuando ocurren problemas.",
+        "Implementa técnicas avanzadas de manejo de errores en Java, como excepciones personalizadas, para manejar situaciones específicas en tus aplicaciones.",
+        "Aprende a usar finally en Java para cerrar o liberar recursos, como archivos o conexiones de red, garantizando que siempre se liberen, independientemente de si ocurre un error.",
+        "Desarrolla habilidades en manejo de excepciones en Java para mejorar la estabilidad y confiabilidad de tus aplicaciones.",
+        "Las excepciones comprobadas en Java son aquellas que el compilador te obliga a capturar o declarar en el método que las genera, asegurando que manejes posibles errores.",
+        "Utiliza la herencia en las excepciones de Java para crear tus propias clases de excepción que sean específicas para los errores de tu aplicación.",
+        "Documenta las excepciones en tus métodos de Java para informar a otros desarrolladores sobre los errores que pueden esperar y cómo se manejan.",
+        "Refactoriza tu código regularmente para mejorar el manejo de excepciones y hacer tu código más limpio y fácil de mantener.",
+        "Evita errores comunes en el manejo de excepciones en Java, como ignorar excepciones capturadas o usar excepciones genéricas cuando están disponibles más específicas.",
+        "Mejora tu manejo de errores en Java mediante la implementación de patrones de diseño específicos que ayudan a manejar errores de forma más efectiva.",
+        "Aprende a lanzar tus propias excepciones en Java cuando sea necesario para señalar condiciones de error específicas en tu código.",
+        "Usa excepciones personalizadas en Java para manejar errores que no están cubiertos por las excepciones estándar proporcionadas por el lenguaje.",
+        "Optimiza tu código para manejar errores eficientemente, minimizando el impacto en el rendimiento de tu aplicación mientras aseguras que los errores se manejen adecuadamente.",
+        "En aplicaciones Java multihilo, maneja errores de manera que no interrumpan el funcionamiento de otros hilos de ejecución y asegúrate de que el estado compartido sea seguro.",
+        "Registra los errores en tus aplicaciones Java para mantener un registro de cuándo y dónde ocurren los fallos, lo que puede ayudar en el proceso de debugging y mantenimiento.",
+        "Utiliza bloques try anidados cuidadosamente en Java para manejar diferentes niveles de errores y asegurarte de que cada nivel de error se maneje de manera apropiada.",
+        "Evita las fugas de recursos en Java asegurándote de que todos los recursos como archivos y conexiones de red se cierren correctamente en bloques finally o usando try-with-resources.",
+        "Para desarrolladores avanzados, manejar excepciones no controladas en Java es crucial para crear aplicaciones robustas y resistentes a fallos inesperados.",
+        "Crea un manejo de errores efectivo en tus aplicaciones Java utilizando clases y métodos que permitan una fácil detección y corrección de errores.",
+        "Implementa control de flujo en tus programas Java utilizando excepciones para manejar situaciones especiales o errores y dirigir el flujo del programa de manera controlada.",
+        "Desarrolla estrategias para el manejo de errores en aplicaciones Java grandes, utilizando prácticas como la encapsulación de errores y la propagación controlada de excepciones.",
+        "Enseña a otros desarrolladores sobre buenas prácticas en el manejo de errores en Java, compartiendo técnicas y consejos para mejorar la calidad del código.",
+        "Investiga y aplica nuevas técnicas y herramientas para el manejo de errores en Java, manteniéndote al día con las mejores prácticas y las últimas actualizaciones del lenguaje.",
+        "Analiza los errores en tus aplicaciones Java para entender sus causas y mejorar el manejo de errores futuros, utilizando herramientas de análisis de código y debugging.",
+        "Maneja errores de red en tus aplicaciones Java de manera efectiva, asegurando que tu aplicación pueda responder adecuadamente a problemas de conectividad.",
+        "Controla errores en aplicaciones Java multihilo de manera que los errores en un hilo no afecten la estabilidad de otros hilos o del sistema en general.",
+        "Implementa un sistema de manejo de estados de error en tus aplicaciones Java, permitiendo que tu aplicación se recupere de errores sin perder datos críticos.",
+        "Utiliza Assertions en Java para validar supuestos en tu código durante el desarrollo, ayudando a identificar y manejar errores temprano en el ciclo de vida del desarrollo.",
+        "Aprende a manejar las excepciones de I/O en Java, asegurando que tu aplicación maneje adecuadamente errores como archivos no encontrados o errores de red.",
+        "Utiliza excepciones personalizadas para manejar condiciones de error específicas en tus aplicaciones Java, lo que puede ayudar a clarificar el manejo de errores y mejorar la legibilidad del código.",
+        "Desarrolla una comprensión profunda de las excepciones comprobadas y no comprobadas en Java, y cómo cada tipo debe ser manejado para asegurar la robustez del código.",
+        "Incorpora el manejo de errores en tu ciclo de desarrollo de software en Java, utilizando pruebas y revisiones de código para identificar y corregir errores antes de la producción.",
+        "Mejora la seguridad de tus aplicaciones Java mediante el manejo adecuado de errores, evitando que fallos en el código puedan ser explotados maliciosamente.",
+        "Organiza sesiones de entrenamiento sobre manejo de errores en Java para tu equipo de desarrollo, asegurando que todos los miembros estén equipados para manejar errores efectivamente.",
+        "Implementa técnicas avanzadas de manejo de errores, como la gestión de excepciones a nivel de aplicación o la utilización de frameworks que facilitan el manejo de errores.",
+        "Mejora continuamente tus habilidades en el manejo de errores en Java, aprendiendo de los errores pasados y aplicando nuevas técnicas para manejarlos mejor en el futuro."
+      ]
+    },
+    {
+      "tag": "java_colecciones",
+      "patterns": [
+        "¿Qué son las colecciones en Java?",
+        "Introducción a las colecciones en Java",
+        "Uso básico de colecciones en Java",
+        "Tipos de colecciones en Java",
+        "Cómo trabajar con listas en Java",
+        "Ejemplos de uso de sets en Java",
+        "Implementar mapas en Java",
+        "Diferencias entre List y Set en Java",
+        "Cómo elegir la colección adecuada en Java",
+        "Operaciones comunes en colecciones de Java",
+        "Manejo de colecciones grandes en Java",
+        "Optimización de colecciones en Java",
+        "Buenas prácticas en el uso de colecciones Java",
+        "Iterar sobre colecciones en Java",
+        "Colecciones sincronizadas en Java",
+        "Uso de iteradores en Java",
+        "Ejemplos de colecciones inmutables en Java",
+        "Cómo convertir arrays a colecciones en Java",
+        "Uso de Streams con colecciones en Java",
+        "Filtrar datos en una colección Java",
+        "Ordenar colecciones en Java",
+        "Comparadores personalizados en Java",
+        "Manejo de colecciones concurrentes en Java",
+        "Explicar el framework de colecciones en Java",
+        "Implementaciones específicas de colecciones en Java",
+        "Colecciones eficientes para tipos primitivos en Java",
+        "Cómo evitar ConcurrentModificationException en Java",
+        "Uso de Collections.sort en Java",
+        "Trabajar con colecciones que aceptan null en Java",
+        "Eliminar elementos de una colección en Java",
+        "Acceder a elementos en colecciones de Java",
+        "Conversión de listas a sets en Java",
+        "Métodos útiles en Collections class en Java",
+        "Colecciones no modificables en Java",
+        "Cómo clonar colecciones en Java",
+        "Uso de colecciones en aplicaciones multihilo",
+        "Implementar una cola en Java usando LinkedList",
+        "Uso de HashSet para operaciones de conjunto en Java",
+        "Cómo manejar duplicados en listas de Java",
+        "Explicación de Map.Entry en Java",
+        "Uso de TreeMap para colecciones ordenadas en Java",
+        "Implementar un stack en Java con Deque",
+        "Manejo de excepciones al trabajar con colecciones en Java",
+        "Uso de LinkedHashMap para mantener el orden de inserción",
+        "Optimizar el rendimiento de HashMap en Java",
+        "Pruebas unitarias en colecciones de Java",
+        "Cuándo usar WeakHashMap en Java",
+        "Serialización de colecciones en Java",
+        "Uso de colecciones en patrones de diseño en Java",
+        "Cómo trabajar con colecciones grandes y su impacto en la memoria"
+      ],
+      "responses": [
+        "Las colecciones en Java son estructuras de datos que agrupan objetos. Incluyen listas, sets, y mapas, que permiten almacenar y gestionar grupos de objetos de manera eficiente.",
+        "Para usar colecciones en Java, importa el paquete java.util. Puedes elegir entre varias estructuras como ArrayList, HashSet, y HashMap, según tus necesidades específicas.",
+        "List en Java permite almacenar elementos en un orden específico y acceder a ellos por índice. Set no permite duplicados y es útil para mantener conjuntos únicos de elementos.",
+        "Map en Java es una colección de pares clave-valor, donde cada clave es única. Utiliza HashMap para una implementación eficiente que no mantiene orden, o TreeMap para mantener un orden.",
+        "Iterar sobre colecciones en Java se puede hacer usando bucles for, foreach o usando iteradores, que permiten recorrer la colección y, en algunos casos, remover elementos seguramente.",
+        "Java ofrece colecciones sincronizadas, como Collections.synchronizedList, para trabajar en entornos multihilo, asegurando que la colección sea segura en términos de hilos.",
+        "Las colecciones inmutables en Java son aquellas que no pueden modificarse una vez creadas. Java 9 introduce métodos como List.of que proporcionan estas colecciones inmutables y seguras.",
+        "Para convertir un array en una colección, usa Arrays.asList(array), que devuelve una lista ligada al array original, permitiendo trabajar con ella como colección.",
+        "Java 8 introdujo Streams, que pueden ser utilizados con colecciones para realizar operaciones complejas de procesamiento de datos de manera eficiente y expresiva, como filtrar o mapear.",
+        "Para ordenar una colección en Java, puedes usar Collections.sort con una lista, proporcionando un comparador si necesitas un orden específico, o dejar que use el orden natural de los elementos.",
+        "Las colecciones concurrentes como ConcurrentHashMap proporcionan operaciones que son seguras para usar en un contexto multihilo sin necesidad de bloqueo externo.",
+        "Utiliza Collections.unmodifiableList para crear una versión no modificable de una lista, protegiendo tus datos contra modificaciones no deseadas.",
+        "El manejo eficiente de colecciones grandes requiere técnicas como adecuada elección del tipo de colección, uso de capacidades iniciales adecuadas, y estar atento a la huella de memoria.",
+        "Evita ConcurrentModificationException asegurándote de no modificar una colección mientras iteras sobre ella, a menos que uses el método remove del iterador.",
+        "Las pruebas unitarias para colecciones en Java deben asegurar que la colección maneje correctamente la inserción, eliminación, y acceso a elementos, así como el respeto a las reglas de negocio.",
+        "Colecciones como WeakHashMap permiten almacenar elementos que son candidatos para la recolección de basura, útil para cachés donde las entradas pueden desaparecer una vez que no se usan más.",
+        "La serialización de colecciones en Java permite guardar el estado de una colección en un medio que puede ser leído o enviado a través de la red, útil para aplicaciones distribuidas.",
+        "El uso de LinkedHashMap mantiene el orden de inserción, lo cual es útil cuando el orden de entrada es importante para la lógica de la aplicación.",
+        "Considera el impacto en la memoria al trabajar con colecciones grandes, especialmente en entornos con memoria limitada. Herramientas como el profiler pueden ayudar a identificar problemas de uso de memoria.",
+        "Para colecciones que aceptan null, asegúrate de que tu código maneje adecuadamente los casos en que se inserten o retiren nulls, para evitar NullPointerExceptions.",
+        "Implementar una cola en Java usando LinkedList te permite manejar una colección con operaciones de inserción y eliminación en los extremos de manera eficiente.",
+        "El uso de HashSet es ideal para operaciones de conjunto donde la unicidad de los elementos es crucial y no se requiere un orden específico de iteración.",
+        "Manejar duplicados en listas puede involucrar convertir la lista a un Set para eliminar duplicados y luego, si es necesario, volver a convertirlo a List.",
+        "Map.Entry en Java te permite trabajar con cada par clave-valor en un mapa, siendo útil para iterar sobre mapas y realizar operaciones en cada entrada.",
+        "TreeMap es ideal para colecciones ordenadas automáticamente según el orden natural de las claves o un comparador proporcionado, útil para cuando se necesita un orden específico en los datos.",
+        "Implementar un stack con Deque permite aprovechar métodos como push y pop, proporcionando una estructura de datos con comportamiento de último en entrar, primero en salir (LIFO).",
+        "Manejo de excepciones en colecciones es crucial, especialmente al tratar con operaciones que pueden fallar, como acceso a elementos no existentes o conversiones de tipo inadecuadas.",
+        "LinkedHashMap puede ser utilizado para mantener un orden de inserción, lo que es especialmente útil en situaciones donde el orden de entrada afecta los resultados.",
+        "Optimizar HashMap puede involucrar ajustar la capacidad inicial y el factor de carga, especialmente en situaciones donde el número de elementos es conocido de antemano o muy grande.",
+        "El uso de colecciones en patrones de diseño, como Builder o Factory, puede facilitar la creación de objetos complejos o la gestión de múltiples objetos de una manera controlada.",
+        "Trabajar con colecciones grandes y su impacto en la memoria es un aspecto crucial para aplicaciones de alto rendimiento, donde la eficiencia en la gestión de memoria puede llevar a mejoras significativas en la performance."
+      ]
+    },
+    {
+      "tag": "java_if_statements",
+      "patterns": [
+        "¿Qué es un if en Java?",
+        "Define if en Java",
+        "Explicación de if en Java",
+        "Descripción de un if en Java",
+        "¿Cómo se define if en Java?",
+        "Definición de if statement en Java",
+        "Explica qué es if en Java",
+        "¿Qué significa if en Java?",
+        "Describir if en Java",
+        "¿Cómo se describe un if en Java?",
+        "¿Qué representa un if en Java?",
+        "Explicar if en Java",
+        "Qué es un if en programación Java",
+        "Concepto de if en Java",
+        "Definir if statement en Java"
+      ],
+      "responses": [
+        "En Java, un \"if\" es una declaración condicional que permite ejecutar un bloque de código basado en si una condición específica es verdadera.",
+        "Un \"if\" en Java es una estructura de control que ejecuta ciertas líneas de código solo cuando su condición evaluada es verdadera.",
+        "La sentencia \"if\" en Java se utiliza para tomar decisiones en el flujo del programa, ejecutando un bloque de código solo si su condición se cumple.",
+        "El \"if\" es un comando en Java que verifica una condición: si la condición es verdadera, se ejecuta el bloque de código asociado.",
+        "Una sentencia \"if\" en Java evalúa una condición booleana y ejecuta un bloque de instrucciones solo si la condición es verdadera."
+      ]
+    },
+    {
+      "tag": "java_for_loops",
+      "patterns": [
+        "¿Qué es un for loop en Java?",
+        "Define un for loop en Java",
+        "Explicación de for loop en Java",
+        "Descripción de un for loop en Java",
+        "¿Cómo se define un for loop en Java?",
+        "Definición de for loop en Java",
+        "Explica qué es un for loop en Java",
+        "¿Qué significa un for loop en Java?",
+        "Describir un for loop en Java",
+        "¿Cómo se describe un for loop en Java?",
+        "¿Qué representa un for loop en Java?",
+        "Explicar for loop en Java",
+        "Qué es un for loop en programación Java",
+        "Concepto de for loop en Java",
+        "Definir for loop en Java"
+      ],
+      "responses": [
+        "Un \"for loop\" en Java es una estructura de control que ejecuta un bloque de instrucciones repetidamente mientras una condición especificada es verdadera.",
+        "Un \"for loop\" es un tipo de bucle en Java que se utiliza para iterar una sección de código múltiples veces bajo condiciones controladas de inicio y finalización.",
+        "En Java, un \"for loop\" permite repetir un conjunto de operaciones un número fijo de veces hasta que una condición especificada deja de ser verdadera.",
+        "La sentencia \"for loop\" en Java es un bucle que itera sobre un bloque de código basado en una condición inicial, una condición de parada y un operador de incremento o decremento."
+      ]
+    },
+    {
+      "tag": "java_while_loops",
+      "patterns": [
+        "¿Qué es un while loop en Java?",
+        "Define un while loop en Java",
+        "Explicación de while loop en Java",
+        "Descripción de un while loop en Java",
+        "¿Cómo se define un while loop en Java?",
+        "Definición de while loop en Java",
+        "Explica qué es un while loop en Java",
+        "¿Qué significa un while loop en Java?",
+        "Describir un while loop en Java",
+        "¿Cómo se describe un while loop en Java?",
+        "¿Qué representa un while loop en Java?",
+        "Explicar while loop en Java",
+        "Qué es un while loop en programación Java",
+        "Concepto de while loop en Java",
+        "Definir while loop en Java",
+        "¿Cómo funciona el while loop en Java?",
+        "¿Para qué se usa el while loop en Java?",
+        "Características de un while loop en Java",
+        "Propósito de un while loop en Java",
+        "Funcionamiento de un while loop en Java"
+      ],
+      "responses": [
+        "Un \"while loop\" en Java es una estructura de control que repite un bloque de código mientras una condición especificada es verdadera.",
+        "El \"while loop\" es un tipo de bucle en Java que continúa ejecutando las instrucciones dentro de su bloque mientras la condición dada al inicio del bucle se evalúa como verdadera.",
+        "En Java, un \"while loop\" permite ejecutar repetidamente un conjunto de operaciones hasta que la condición evaluada deja de ser verdadera.",
+        "La sentencia \"while loop\" en Java es un bucle que itera sobre un bloque de código basado en una condición booleana que debe ser verdadera para que la ejecución del bucle continúe.",
+        "Un \"while loop\" es un bucle de control que permite la ejecución repetida de un conjunto de instrucciones siempre que la condición evaluada al inicio del bucle se mantenga verdadera.",
+        "El bucle \"while\" en Java se utiliza para realizar tareas repetitivas hasta que una condición determinada cambie, ideal para cuando no se sabe cuántas veces será necesario iterar.",
+        "En Java, el \"while loop\" ejecuta el código dentro del bucle repetidamente, siempre que la condición dada sea verdadera. Es útil para ciclos donde el número de iteraciones no es conocido de antemano.",
+        "El \"while loop\" en Java es crucial para implementar cualquier iteración basada en condiciones que pueden cambiar dinámicamente durante la ejecución del programa.",
+        "Una sentencia \"while\" en Java permite repetir una acción o un grupo de acciones mientras una condición específica se evalúe como verdadera, siendo muy eficaz en situaciones donde el número de iteraciones necesario no es conocido previamente.",
+        "El \"while loop\" proporciona una manera eficiente de repetir un bloque de código mientras se cumpla una condición predefinida, formando un componente esencial en la programación estructurada."
+      ]
+    },
+    {
+      "tag": "java_switch_statements",
+      "patterns": [
+        "¿Qué es un switch statement en Java?",
+        "Define un switch statement en Java",
+        "Explicación de switch statement en Java",
+        "Descripción de un switch statement en Java",
+        "¿Cómo se define un switch statement en Java?",
+        "Definición de switch statement en Java",
+        "Explica qué es un switch statement en Java",
+        "¿Qué significa un switch statement en Java?",
+        "Describir un switch statement en Java",
+        "¿Cómo se describe un switch statement en Java?",
+        "¿Qué representa un switch statement en Java?",
+        "Explicar switch statement en Java",
+        "Qué es un switch statement en programación Java",
+        "Concepto de switch statement en Java",
+        "Definir switch statement en Java",
+        "Características de un switch statement en Java",
+        "Funcionamiento de un switch statement en Java",
+        "Propósito de un switch statement en Java",
+        "Uso de switch statements en Java",
+        "¿Para qué se usa el switch statement en Java?"
+      ],
+      "responses": [
+        "Un \"switch statement\" en Java es una estructura de control que permite ejecutar diferentes partes de código dependiendo del valor de una variable. Es una alternativa a múltiples \"if\" statements cuando se trata de múltiples condiciones.",
+        "El \"switch statement\" en Java es una declaración que proporciona múltiples posibles caminos de ejecución. Se selecciona un camino basándose en el valor de una variable o expresión.",
+        "En Java, un \"switch statement\" permite a un programa ejecutar diferentes secciones de código basadas en el valor de una variable. Cada \"case\" en un \"switch\" representa una opción de ejecución.",
+        "Un \"switch\" en Java evalúa una variable o expresión y, dependiendo de su valor, ejecuta el bloque de código correspondiente a ese valor especificado en una de las cláusulas \"case\".",
+        "El \"switch statement\" en Java es utilizado para simplificar el proceso de tomar decisiones múltiples con base en una sola variable numérica o de tipo \"String\".",
+        "El \"switch statement\" ofrece una forma más limpia y organizada de codificar decisiones que requieren múltiples ramas de acción, evitando extensas estructuras de \"if-else\".",
+        "El propósito principal de un \"switch statement\" en Java es proporcionar una manera de ejecutar diferentes partes del código basándose en el valor específico de una variable, sin necesidad de evaluar múltiples condiciones booleanas complejas."
+      ]
+    },
+    {
+      "tag": "java_do_while_loops",
+      "patterns": [
+        "¿Qué es un do-while loop en Java?",
+        "Define un do-while loop en Java",
+        "Explicación de do-while loop en Java",
+        "Descripción de un do-while loop en Java",
+        "¿Cómo se define un do-while loop en Java?",
+        "Definición de do-while loop en Java",
+        "Explica qué es un do-while loop en Java",
+        "¿Qué significa un do-while loop en Java?",
+        "Describir un do-while loop en Java",
+        "¿Cómo se describe un do-while loop en Java?",
+        "¿Qué representa un do-while loop en Java?",
+        "Explicar do-while loop en Java",
+        "Qué es un do-while loop en programación Java",
+        "Concepto de do-while loop en Java",
+        "Definir do-while loop en Java",
+        "Características de un do-while loop en Java",
+        "Funcionamiento de un do-while loop en Java",
+        "Propósito de un do-while loop en Java",
+        "Uso de do-while loops en Java",
+        "¿Para qué se usa el do-while loop en Java?"
+      ],
+      "responses": [
+        "Un \"do-while loop\" en Java es una estructura de control que ejecuta un bloque de código al menos una vez antes de evaluar una condición para decidir si el bucle debe continuar ejecutándose.",
+        "El \"do-while loop\" en Java es similar al \"while loop\", pero garantiza que el bloque de código dentro del bucle se ejecute al menos una vez, ya que la condición se verifica al final del bucle.",
+        "En Java, un \"do-while loop\" permite repetir un conjunto de instrucciones hasta que una condición específica se vuelve falsa, con la peculiaridad de que el bloque de código se ejecuta primero antes de evaluar la condición.",
+        "El \"do-while loop\" en Java se utiliza cuando necesitas que el código se ejecute al menos una vez, independientemente de si la condición inicial es verdadera o falsa, ya que la evaluación ocurre después de la ejecución del código.",
+        "Un \"do-while loop\" es un control de flujo en Java que repite instrucciones entre las llaves \"do\" y \"while\", y luego evalúa una condición al final para determinar si el bucle debe continuar.",
+        "El bucle \"do-while\" en Java ejecuta sus instrucciones al menos una vez, lo que lo hace útil en situaciones donde la verificación de condición es secundaria al menos a una ejecución garantizada del bucle.",
+        "En Java, el \"do-while loop\" se comporta de manera que el cuerpo del bucle se ejecuta primero, y la condición para continuar el bucle se evalúa después, usando la sintaxis: do { // statements } while (condition);"
+      ]
+    },
+    {
+      "tag": "java_arrays",
+      "patterns": [
+        "¿Qué es un array en Java?",
+        "Define un array en Java",
+        "Explicación de un array en Java",
+        "Descripción de un array en Java",
+        "¿Cómo se define un array en Java?",
+        "Definición de un array en Java",
+        "Explica qué es un array en Java",
+        "¿Qué significa un array en Java?",
+        "Describir un array en Java",
+        "¿Cómo se describe un array en Java?",
+        "¿Qué representa un array en Java?",
+        "Explicar un array en Java",
+        "Qué es un array en programación Java",
+        "Concepto de un array en Java",
+        "Definir un array en Java",
+        "Características de un array en Java",
+        "Funcionamiento de un array en Java",
+        "Propósito de un array en Java",
+        "Uso de arrays en Java",
+        "¿Para qué se usa un array en Java?"
+      ],
+      "responses": [
+        "Un array en Java es una estructura de datos que permite almacenar múltiples valores de un mismo tipo en una sola variable. Cada elemento del array puede ser accedido mediante un índice.",
+        "En Java, un array se define como un conjunto de variables almacenadas en una estructura contigua de memoria. Todos los elementos de un array tienen el mismo tipo y son accesibles a través de índices numéricos.",
+        "Un array en Java es una colección ordenada de elementos, todos del mismo tipo, que se almacenan bajo un solo nombre de variable y se accede a cada uno de ellos mediante un índice numérico.",
+        "Java utiliza arrays para almacenar múltiples valores en una variable única. Un array es útil cuando necesitas manejar una colección fija de elementos del mismo tipo, como una lista de números o una secuencia de caracteres.",
+        "Un array en Java se declara especificando el tipo de elementos que contendrá seguido de corchetes. Por ejemplo, \"int[]\" declara un array de enteros. Los elementos de un array se inicializan y acceden mediante sus índices.",
+        "El propósito principal de un array en Java es almacenar múltiples valores de una manera organizada y eficiente, permitiendo operaciones como la iteración y la búsqueda rápida de elementos por índice."
+      ]
+    },
+    {
+      "tag": "oop_java",
+      "patterns": [
+        "¿Qué es la programación orientada a objetos en Java?",
+        "Define la programación orientada a objetos en Java",
+        "Explicación de la OOP en Java",
+        "Descripción de la programación orientada a objetos en Java",
+        "¿Cómo se define la OOP en Java?",
+        "Definición de programación orientada a objetos en Java",
+        "Explica qué es la programación orientada a objetos en Java",
+        "¿Qué significa OOP en Java?",
+        "Describir la programación orientada a objetos en Java",
+        "¿Cómo se describe la OOP en Java?",
+        "¿Qué representa la OOP en Java?",
+        "Explicar la programación orientada a objetos en Java",
+        "Qué es la OOP en programación Java",
+        "Concepto de OOP en Java",
+        "Definir la programación orientada a objetos en Java",
+        "Características de la OOP en Java",
+        "Funcionamiento de la OOP en Java",
+        "Propósito de la OOP en Java",
+        "Uso de la programación orientada a objetos en Java",
+        "¿Para qué se usa la OOP en Java?"
+      ],
+      "responses": [
+        "La programación orientada a objetos en Java es un paradigma de programación basado en el concepto de \"objetos\", que pueden contener datos en forma de campos (atributos) y código en forma de procedimientos (métodos). Java utiliza la OOP para organizar el software como una colección de objetos que interactúan.",
+        "En Java, la programación orientada a objetos implica crear clases que definen objetos y sus comportamientos. Estos objetos son instancias de clases y pueden interactuar entre sí, lo que facilita la modularidad y la reutilización de código.",
+        "OOP en Java es un modelo de programación que permite estructurar programas de manera que las propiedades y comportamientos están encapsulados en objetos individuales. Por ejemplo, un objeto \"coche\" puede tener atributos como marca y modelo, y métodos para arrancar y detener.",
+        "La programación orientada a objetos en Java se basa en cuatro principios principales: encapsulamiento, herencia, polimorfismo y abstracción. Cada uno de estos principios ayuda a manejar la complejidad del software al permitir que los desarrolladores construyan componentes reutilizables y fáciles de mantener.",
+        "Java es un lenguaje que implementa la programación orientada a objetos de manera muy estricta. Utiliza clases para definir las características de los objetos y utiliza interfaces para definir contratos que los objetos pueden implementar, lo que promueve un diseño de software robusto y flexible."
+      ]
+    },
+    {
+      "tag": "java_class_creation",
+      "patterns": [
+        "¿Cómo creo una clase en Java?",
+        "Paso a paso para crear una clase en Java",
+        "Guía para crear una clase en Java",
+        "¿Qué necesito para definir una clase en Java?",
+        "Instrucciones para crear una clase en Java",
+        "Proceso para definir una clase en Java",
+        "Cómo se escribe una clase en Java",
+        "Explica cómo crear una clase en Java",
+        "Tutorial de creación de clases en Java",
+        "Cómo iniciar una clase en Java",
+        "Estructura básica de una clase en Java",
+        "Componentes de una clase en Java",
+        "Elementos esenciales para crear una clase en Java",
+        "Creando tu primera clase en Java",
+        "Pasos para escribir una clase en Java"
+      ],
+      "responses": [
+        "Para crear una clase en Java, comienzas por definir la clase con la palabra clave \"class\" seguida del nombre de la clase. Luego, dentro de las llaves, defines los campos y métodos que describen los atributos y comportamientos de la clase.",
+        "Una clase en Java se crea especificando el modificador de acceso, seguido por \"class\" y el nombre de la clase. Después, entre llaves, agregas los campos (variables de clase) y métodos (funciones de clase). Por ejemplo: public class Auto { int año; String modelo; void mostrar() { System.out.println(modelo + \" del año \" + año); } }",
+        "Para escribir una clase en Java, inicia con la palabra clave \"class\", dale un nombre a la clase, y define su cuerpo entre llaves. Dentro del cuerpo, puedes incluir variables que representen el estado del objeto y métodos que definan su comportamiento.",
+        "Crear una clase en Java implica definir un tipo de objeto especificando sus propiedades y comportamientos. Esto se hace mediante una declaración de clase que incluye un nombre y un cuerpo que contiene declaraciones de campos y métodos.",
+        "La estructura básica de una clase en Java incluye una declaración de clase con un nombre, seguido de un cuerpo que contiene campos y métodos. Por ejemplo: class Persona { String nombre; int edad; void hablar() { System.out.println(\"Hola, mi nombre es \" + nombre); } }"
+      ]
+    },
+    {
+      "tag": "java_for_examples",
+      "patterns": [
+        "Dame un ejemplo de un bucle for en Java",
+        "Ejemplos de bucles for para principiantes en Java",
+        "Cómo usar un bucle for en Java",
+        "Ejemplos prácticos de bucles for en Java",
+        "Usar bucles for en Java con arrays",
+        "Ejemplos de bucles for para iterar colecciones en Java",
+        "Mostrar cómo se usa for para iterar en listas en Java",
+        "Ejemplo de bucle for con condiciones múltiples",
+        "Usar for para sumar números en Java",
+        "Ejemplo de for para contar elementos",
+        "Códigos de ejemplo de for en aplicaciones Java",
+        "Usar for para copiar elementos de un array a otro",
+        "Ejemplo de for para recorrer matrices en Java",
+        "Ejemplos de for para realizar operaciones matemáticas complejas",
+        "Usar for para buscar un valor en un array",
+        "Cómo utilizar un bucle for para imprimir números pares",
+        "Ejemplo de for para procesar strings en Java",
+        "Mostrar bucles for anidados para generar tablas en Java",
+        "Ejemplo de for para invertir un array",
+        "Usar for para filtrar datos en una lista",
+        "Ejemplo de for para ejecutar una secuencia de operaciones",
+        "Uso de for para manipular datos en una base de datos",
+        "Ejemplo de for para calcular promedios",
+        "Cómo hacer un bucle for para dibujar patrones",
+        "Uso de for para gestionar eventos en una interfaz gráfica",
+        "Ejemplo de for para crear un histograma de datos",
+        "Usar for para generar números aleatorios dentro de un rango",
+        "Ejemplo de for para eliminar elementos específicos de un array",
+        "Uso de bucles for para validación de datos",
+        "Cómo configurar bucles for para pruebas automatizadas"
+      ],
+      "responses": [
+        "Aquí tienes un ejemplo simple de bucle for en Java: for(int i = 0; i < 10; i++) { System.out.println(i); } Este bucle imprime los números del 0 al 9.",
+        "Un ejemplo de for para iterar sobre un array: String[] frutas = {\"manzana\", \"banana\", \"cereza\"}; for(int i = 0; i < frutas.length; i++) { System.out.println(frutas[i]); }",
+        "Ejemplo de for anidado para recorrer una matriz 2D: int[][] matriz = {{1, 2}, {3, 4}}; for(int i = 0; i < matriz.length; i++) { for(int j = 0; j < matriz[i].length; j++) { System.out.print(matriz[i][j] + \" \"); } System.out.println(); }",
+        "Un ejemplo de for para sumar elementos de un array: int[] numeros = {1, 2, 3, 4, 5}; int suma = 0; for(int num : numeros) { suma += num; } System.out.println(\"Suma: \" + suma);",
+        "Ejemplo de uso de for para encontrar un elemento en un array: String[] nombres = {\"Ana\", \"Luis\", \"Carlos\"}; String buscar = \"Luis\"; for(String nombre : nombres) { if(nombre.equals(buscar)) { System.out.println(buscar + \" encontrado!\"); break; } }",
+        "Ejemplo de for para imprimir números pares de 1 a 10: for(int i = 1; i <= 10; i++) { if(i % 2 == 0) { System.out.println(i); } }",
+        "Ejemplo de for para invertir un array: int[] array = {1, 2, 3, 4, 5}; for(int i = 0; i < array.length / 2; i++) { int temp = array[i]; array[i] = array[array.length - 1 - i]; array[array.length - 1 - i] = temp; }",
+        "Ejemplo de for para filtrar y imprimir solo los nombres que comienzan con \"C\" en un array: String[] nombres = {\"Carlos\", \"Ana\", \"Carmen\"}; for(String nombre : nombres) { if(nombre.startsWith(\"C\")) { System.out.println(nombre); } }",
+        "Uso de for para calcular el promedio de valores en un array: double[] valores = {10.0, 20.0, 30.0, 40.0, 50.0}; double total = 0; for(double valor : valores) { total += valor; } double promedio = total / valores.length; System.out.println(\"Promedio: \" + promedio);"
+      ]
+    },
+    {
+      "tag": "java_if_examples",
+      "patterns": [
+        "Dame un ejemplo de un if en Java",
+        "Ejemplos de if para principiantes en Java",
+        "Cómo usar un if en Java",
+        "Ejemplos prácticos de ifs en Java",
+        "Usar if para comparar números en Java",
+        "Ejemplos de if con operadores lógicos en Java",
+        "Mostrar cómo se usa if para tomar decisiones en Java",
+        "Ejemplo de if para validar condiciones",
+        "Usar if para chequear condiciones múltiples",
+        "Ejemplo de if-else en Java",
+        "Códigos de ejemplo de if en aplicaciones Java",
+        "Usar if para controlar el flujo de un programa",
+        "Ejemplo de if anidado en Java",
+        "Ejemplos de if para manejar diferentes casos",
+        "Uso de if para gestionar estados de usuario",
+        "Cómo utilizar un if para detectar valores vacíos en strings",
+        "Ejemplo de if para procesar entradas de usuario",
+        "Mostrar ifs anidados para resolver problemas complejos",
+        "Ejemplo de if para manejar errores de entrada",
+        "Usar if para implementar lógica de negocio",
+        "Ejemplo de if para ejecutar una acción condicional",
+        "Uso de if para manipular datos de entrada",
+        "Ejemplo de if para calcular descuentos en ventas",
+        "Cómo hacer un bucle if para validar formularios",
+        "Uso de if para manejar eventos en una interfaz gráfica",
+        "Ejemplo de if para crear reglas de validación de datos",
+        "Usar if para generar números aleatorios dentro de un rango",
+        "Ejemplo de if para eliminar elementos específicos de una lista",
+        "Uso de ifs para validación de datos",
+        "Cómo configurar ifs para pruebas automatizadas"
+      ],
+      "responses": [
+        "Un ejemplo simple de un `if` en Java: `if (edad >= 18) { System.out.println(\"Mayor de edad.\"); }` Este código comprueba si la persona es mayor de edad y muestra un mensaje si es verdad.",
+        "Ejemplo de `if-else`: `if (puntuacion >= 80) { System.out.println(\"Excelente!\"); } else { System.out.println(\"Necesitas mejorar.\"); }` Este código evalúa si una puntuación es excelente o no.",
+        "Uso de `if` con múltiples condiciones: `if (edad >= 18 && tieneLicencia) { System.out.println(\"Puedes conducir.\"); }` Este código comprueba si una persona es mayor de edad y tiene licencia de conducir.",
+        "Ejemplo de `if` anidado: `if (temperatura > 30) { if (esVerano) { System.out.println(\"Enciende el aire acondicionado.\"); } else { System.out.println(\"Un poco caluroso para esta época del año.\"); } }` Este código realiza acciones basadas en la temperatura y la estación del año.",
+        "Ejemplo de `if` para detectar valores vacíos: `if (nombre.isEmpty()) { System.out.println(\"El nombre no puede estar vacío.\"); }` Este código verifica si la cadena de nombre está vacía.",
+        "Ejemplo de `if` para gestionar eventos de clic en una interfaz gráfica: `if (evento.getSource() == botonGuardar) { guardarDatos(); }` Este código ejecuta la función `guardarDatos()` si el evento de clic provino del botón guardar.",
+        "Ejemplo de `if` para calcular descuentos: `if (cantidadComprada > 20) { precio *= 0.9; }` Este código aplica un descuento del 10% si la cantidad comprada es mayor a 20.",
+        "Ejemplo de `if-else if-else`: `if (nota >= 90) { System.out.println(\"A\"); } else if (nota >= 80) { System.out.println(\"B\"); } else if (nota >= 70) { System.out.println(\"C\"); } else { System.out.println(\"D\"); }` Este código clasifica una nota escolar en A, B, C o D basándose en el rango en que se encuentre.",
+        "Ejemplo de `if` para validar formularios: `if (!email.contains(\"@\") || email.isEmpty()) { System.out.println(\"Correo electrónico no válido.\"); }` Este código verifica si un correo electrónico contiene \"@\" y si no está vacío."
+      ]
+    },
+    {
+      "tag": "java_switch_simple_examples",
+      "patterns": [
+        "Dame un ejemplo de un switch en Java",
+        "Ejemplos de switch para principiantes en Java",
+        "Cómo usar un switch en Java",
+        "Ejemplos prácticos de switch en Java",
+        "Usar switch para comparar cadenas en Java",
+        "Ejemplos de switch para manejar selecciones de usuario en Java",
+        "Mostrar cómo se usa switch para manejar días de la semana",
+        "Ejemplo de switch para procesar comandos de usuario",
+        "Usar switch para acciones de menú en Java",
+        "Ejemplo de switch con múltiples casos en Java",
+        "Códigos de ejemplo de switch en aplicaciones Java",
+        "Usar switch para controlar el flujo de un programa",
+        "Ejemplo de switch para manejar meses del año",
+        "Ejemplos de switch para manejar niveles de acceso",
+        "Uso de switch para gestionar estados de aplicación",
+        "Cómo utilizar un switch para seleccionar opciones de configuración",
+        "Ejemplo de switch para procesar selecciones de un menú",
+        "Mostrar switches sencillos para resolver problemas comunes",
+        "Ejemplo de switch para manejar respuestas de formularios",
+        "Usar switch para implementar lógica de negocio simple"
+      ],
+      "responses": [
+        "Aquí tienes un ejemplo simple de switch en Java: `switch (dia) { case \"lunes\": System.out.println(\"Inicio de semana\"); break; case \"viernes\": System.out.println(\"Casi fin de semana\"); break; default: System.out.println(\"Otro día de la semana\"); }` Este código muestra mensajes diferentes dependiendo del día de la semana.",
+        "Ejemplo de switch para manejar comandos de usuario: `switch (comando) { case \"inicio\": iniciar(); break; case \"detener\": detener(); break; default: System.out.println(\"Comando no reconocido\"); }` Este código ejecuta funciones diferentes basadas en el comando de entrada.",
+        "Ejemplo de switch para meses del año: `switch (mes) { case 1: System.out.println(\"Enero\"); break; case 2: System.out.println(\"Febrero\"); break; default: System.out.println(\"Otro mes\"); }` Este código imprime el nombre del mes basado en su número.",
+        "Ejemplo de uso de switch para seleccionar opciones de configuración: `switch (opcion) { case \"audio\": configurarAudio(); break; case \"video\": configurarVideo(); break; default: System.out.println(\"Configuración no disponible\"); }` Este código llama a diferentes métodos dependiendo de la opción de configuración seleccionada.",
+        "Un ejemplo de switch con cadenas para manejar selecciones de un menú: `switch (seleccion) { case \"Guardar\": guardarArchivo(); break; case \"Abrir\": abrirArchivo(); break; case \"Salir\": salir(); break; default: System.out.println(\"Opción no válida\"); }` Este código ejecuta acciones diferentes basadas en la opción de menú elegida por el usuario.",
+        "Ejemplo de switch para manejar niveles de acceso: `switch (nivelAcceso) { case 1: System.out.println(\"Acceso básico\"); break; case 2: System.out.println(\"Acceso intermedio\"); break; case 3: System.out.println(\"Acceso administrativo\"); break; default: System.out.println(\"Nivel de acceso no reconocido\"); }` Este código muestra mensajes diferentes dependiendo del nivel de acceso del usuario."
+      ]
+    },
+    {
+      "tag": "java_while_simple_examples",
+      "patterns": [
+        "Dame un ejemplo de un bucle while en Java",
+        "Ejemplos de bucles while para principiantes en Java",
+        "Cómo usar un bucle while en Java",
+        "Ejemplos prácticos de while en Java",
+        "Usar while para contar números en Java",
+        "Ejemplos de while para iterar hasta cumplir una condición",
+        "Mostrar cómo se usa while para leer datos",
+        "Ejemplo de while para procesar entradas hasta un punto",
+        "Usar while para ejecutar un menú de opciones",
+        "Ejemplo de while para sumar números hasta un límite",
+        "Códigos de ejemplo de while en aplicaciones Java",
+        "Usar while para controlar el flujo de un programa",
+        "Ejemplo de while para manejar entradas de usuario",
+        "Ejemplos de while para realizar validaciones",
+        "Uso de while para gestionar ciclos de tareas repetitivas",
+        "Cómo utilizar un while para procesar listas",
+        "Ejemplo de while para esperar un evento",
+        "Mostrar while para mantener un servicio activo",
+        "Ejemplo de while para verificar condiciones continuamente",
+        "Usar while para realizar una encuesta interactiva"
+      ],
+      "responses": [
+        "Un ejemplo simple de bucle while en Java: `int i = 0; while (i < 5) { System.out.println(i); i++; }` Este código imprime los números del 0 al 4.",
+        "Ejemplo de while para sumar números: `int suma = 0; int num = 1; while (num <= 10) { suma += num; num++; } System.out.println(\"La suma es: \" + suma);` Este código suma los números del 1 al 10.",
+        "Uso de while para leer datos hasta que el usuario decida detenerse: `Scanner scanner = new Scanner(System.in); String continuar; do { System.out.println(\"Desea continuar? (si/no)\"); continuar = scanner.nextLine(); } while (continuar.equals(\"si\"));`",
+        "Ejemplo de while para validar una entrada: `int edad; Scanner scanner = new Scanner(System.in); do { System.out.println(\"Ingrese su edad (mayor que 0):\"); while (!scanner.hasNextInt()) { System.out.println(\"Eso no es un número!\"); scanner.next(); } edad = scanner.nextInt(); } while (edad <= 0);`",
+        "While para procesar elementos de una lista hasta encontrar un valor específico: `List<String> nombres = Arrays.asList(\"Ana\", \"Luis\", \"Carlos\"); Iterator<String> iter = nombres.iterator(); while (iter.hasNext()) { if (\"Luis\".equals(iter.next())) { System.out.println(\"Luis encontrado!\"); break; } }`",
+        "Ejemplo de while para ejecutar un menú repetidamente hasta que el usuario decida salir: `Scanner scanner = new Scanner(System.in); int opcion; do { System.out.println(\"1. Jugar\\n2. Salir\"); opcion = scanner.nextInt(); if (opcion == 1) { jugar(); } } while (opcion != 2);` Este código muestra un menú que permite al usuario jugar o salir, repitiéndose hasta que el usuario elija la opción de salir."
+      ]
+    },
+    {
+      "tag": "consejos_inicio_java",
+      "patterns": [
+        "Consejos para empezar con Java",
+        "¿Cómo puedo comenzar a aprender Java?",
+        "Sugerencias para iniciar en Java",
+        "Tips para aprender Java",
+        "Recomendaciones para empezar en Java",
+        "¿Qué debo saber para aprender Java?",
+        "Guía para principiantes en Java",
+        "¿Cómo iniciar con Java?",
+        "Ayuda para empezar con Java",
+        "¿Qué consejos tienes para un principiante en Java?",
+        "¿Cómo empiezo a programar en Java?",
+        "Primeros pasos en Java",
+        "¿Qué debería saber antes de aprender Java?",
+        "¿Cómo aprender Java desde cero?",
+        "¿Qué necesito para aprender Java?",
+        "Mejores prácticas para comenzar en Java",
+        "Instrucciones para aprender Java",
+        "¿Dónde empezar con Java?",
+        "Pasos iniciales para aprender Java",
+        "Ayuda para novatos en Java"
+      ],
+      "responses": [
+        "Para empezar con Java, te recomendaría que primero te familiarices con los conceptos básicos de programación. Es como aprender el abecedario antes de escribir una novela.",
+        "¿Sabías que la sintaxis de Java es bastante amigable? Hay montones de tutoriales en línea que te pueden guiar paso a paso. ¡No dudes en aprovecharlos!",
+        "Practica, practica y... ¡practica! Escribe pequeños programas, te ayudará a afianzar lo que vas aprendiendo. ¡Verás cómo mejora tu comprensión!",
+        "Elegir una buena IDE como IntelliJ IDEA o Eclipse puede hacerte la vida mucho más fácil. Es como tener una caja de herramientas bien organizada.",
+        "No te preocupes por cometer errores, ¡es parte del proceso! La programación es un aprendizaje continuo, y cada error te enseña algo nuevo.",
+        "La documentación oficial de Java es tu mejor amiga. Dedica algo de tiempo a leerla, te dará una base sólida para entender cómo funciona todo.",
+        "Entender estructuras de datos y algoritmos es súper importante. Piensa en ellos como los cimientos de una casa: esenciales para construir algo sólido.",
+        "Unirte a foros y comunidades online puede ser de gran ayuda. Compartir tus dudas y aprender de otros es una manera genial de crecer.",
+        "Haz proyectos pequeños y ejercicios prácticos. La práctica constante es la clave para mejorar. ¡Y es muy gratificante ver tus proyectos tomar forma!",
+        "Aprender a usar el depurador en tu IDE es esencial. Es como tener una lupa para encontrar esos pequeños errores en tu código.",
+        "Conocer las bibliotecas estándar de Java te ahorrará mucho tiempo. ¡Son herramientas poderosas que te evitarán reinventar la rueda!",
+        "La programación orientada a objetos (POO) es clave en Java. Dedica tiempo a entenderla, ¡te abrirá muchas puertas en el desarrollo!",
+        "Hay muchos cursos en línea, gratuitos y pagos, que pueden estructurar tu aprendizaje. Es como tener un tutor personal disponible 24/7.",
+        "Leer libros sobre Java también es muy útil. Clásicos como \"Effective Java\" están llenos de buenas prácticas y consejos.",
+        "Trabaja en proyectos que te apasionen. ¡Mantener la motivación alta hace que el aprendizaje sea mucho más divertido y llevadero!",
+        "Aprender a usar Git para el control de versiones es una habilidad esencial. Te ayudará a gestionar tus proyectos como un profesional.",
+        "La programación requiere tiempo y paciencia, así que no te desanimes si al principio te cuesta. ¡Todos hemos estado ahí!",
+        "Explorar frameworks populares como Spring puede ser muy beneficioso. Te enseñarán cómo se desarrollan aplicaciones reales en Java.",
+        "¿Sabías que ver tutoriales en video puede ser muy efectivo? A veces ver a alguien más escribir código puede aclararte muchas dudas.",
+        "Trabajar en equipo es otra gran forma de aprender. Si tienes amigos interesados en Java, ¡armen un proyecto juntos!",
+        "No olvides la importancia de un buen café (o té) mientras programas. ¡Mantén las energías altas y el código fluyendo!",
+        "Tomarte descansos regulares es clave. A veces, alejarte un rato de la pantalla puede darte la perspectiva que necesitas para resolver un problema.",
+        "Escribir comentarios en tu código te ayudará a entenderlo mejor más adelante. ¡Y tus futuros colegas te lo agradecerán!",
+        "Participar en hackathons o competencias de programación puede ser muy divertido y educativo. ¡Es una forma genial de poner a prueba tus habilidades!",
+        "No subestimes el poder de un buen mentor. Si conoces a alguien con experiencia en Java, pídele consejo y feedback sobre tu código.",
+        "Aprender a leer y entender el código de otros también es muy importante. Te dará nuevas ideas y te enseñará diferentes enfoques.",
+        "¡No te olvides de celebrar tus logros, por pequeños que sean! Cada avance es un paso más hacia convertirte en un gran programador.",
+        "Explora proyectos de código abierto en GitHub. Contribuir a ellos te dará experiencia real y te conectará con otros desarrolladores.",
+        "Escuchar podcasts o ver conferencias sobre Java y programación puede ser muy inspirador. ¡Siempre hay algo nuevo por aprender!",
+        "Y lo más importante, diviértete. La programación puede ser desafiante, pero también es increíblemente gratificante. ¡Disfruta del viaje!"
+      ]
+    },
+    {
+      "tag": "roadmap_desarrollador_java",
+      "patterns": [
+        "¿Cuál es el roadmap para ser desarrollador Java?",
+        "Ruta para convertirse en desarrollador Java",
+        "Pasos para ser un desarrollador Java",
+        "Guía para convertirse en desarrollador Java",
+        "¿Cómo puedo ser un desarrollador Java?",
+        "Camino para aprender Java",
+        "¿Qué debo aprender para ser desarrollador Java?",
+        "Plan de estudio para desarrollador Java",
+        "Etapas para ser un programador Java",
+        "¿Qué necesito saber para ser desarrollador Java?",
+        "Consejos para seguir una carrera en Java",
+        "¿Cuál es la ruta de aprendizaje para Java?",
+        "Proceso para ser desarrollador Java",
+        "Fases de aprendizaje en Java",
+        "¿Qué seguir para aprender Java?",
+        "Plan para convertirse en desarrollador Java",
+        "Guía completa para ser desarrollador Java",
+        "Hoja de ruta para ser desarrollador Java",
+        "Pasos a seguir para aprender Java",
+        "Desarrollo profesional en Java"
+      ],
+      "responses": [
+        "Para empezar en Java, primero enfócate en comprender los conceptos básicos de programación: variables, loops y estructuras de control. Una vez que te sientas cómodo con eso, pasa a aprender sobre la sintaxis de Java.",
+        "Después de dominar lo básico, el siguiente paso es sumergirse en la programación orientada a objetos (POO). Esto incluye aprender sobre clases, objetos, herencia, polimorfismo y encapsulación. Estos son fundamentales en Java.",
+        "Con una buena base en POO, comienza a trabajar con colecciones como `ArrayList`, `HashMap` y `HashSet`. Entender cómo manejar colecciones de datos es crucial para cualquier desarrollador Java.",
+        "A medida que avances, es importante que aprendas sobre manejo de excepciones para escribir código más robusto. También, familiarízate con las bibliotecas estándar de Java para no reinventar la rueda.",
+        "Finalmente, explora frameworks como Spring y Hibernate. Estos son esenciales para el desarrollo de aplicaciones empresariales en Java. Además, no olvides practicar con proyectos reales y contribuir a proyectos de código abierto para ganar experiencia práctica."
+      ]
+    },
+    {
+      "tag": "nombre_bot",
+      "patterns": [
+        "¿Cuál es tu nombre?",
+        "¿Cómo te llamas?",
+        "¿Quién eres?",
+        "¿Qué bot eres?",
+        "Dime tu nombre",
+        "¿Cuál es el nombre del bot?",
+        "¿Quién es este bot?",
+        "¿Cómo te llamas tú?",
+        "¿Qué nombre tiene este bot?",
+        "¿Quién eres tú?"
+      ],
+      "responses": [
+        "¡Hola! Soy UcvBot 🤖, ¿en qué puedo ayudarte hoy?",
+        "Mi nombre es UcvBot. ¿Tienes alguna pregunta sobre Java? 🚀",
+        "Me llamo UcvBot 😄. Estoy aquí para asistirte con tus dudas sobre Java.",
+        "Puedes llamarme UcvBot 😊. ¿Te gustaría saber algo sobre programación?",
+        "Soy UcvBot, tu asistente para aprender Java 📝. ¿Qué necesitas saber?",
+        "Me llamo UcvBot. ¿Quieres aprender más sobre desarrollo en Java? 💻",
+        "UcvBot es mi nombre 🎉. ¿Tienes alguna consulta sobre Java?",
+        "Puedes llamarme UcvBot 🤓. ¿En qué aspecto de Java necesitas ayuda?",
+        "Soy UcvBot, listo para ayudarte 🛠️. ¿Qué pregunta tienes sobre Java?",
+        "Mi nombre es UcvBot. Estoy aquí para responder tus preguntas sobre Java 🔍.",
+        "Soy UcvBot 😃. ¿Quieres saber más sobre algún tema en particular de Java?",
+        "Mi nombre es UcvBot. ¿Tienes alguna duda específica sobre programación en Java? 🤔",
+        "Me llamo UcvBot y estoy aquí para asistirte 😊. ¿Hay algo de Java que te gustaría explorar?",
+        "Puedes llamarme UcvBot 🤖. ¿Qué tema de Java te interesa?",
+        "Soy UcvBot. ¿Te gustaría aprender algo nuevo sobre Java hoy? 🌟",
+        "Me llamo UcvBot 🤨. ¿Cómo puedo ayudarte a mejorar tus habilidades en Java?",
+        "UcvBot es mi nombre 🏆. ¿Qué aspecto de Java te gustaría conocer mejor?",
+        "Puedes llamarme UcvBot 🤩. ¿Tienes alguna pregunta sobre desarrollo en Java?",
+        "Soy UcvBot 👾. ¿En qué puedo asistirte hoy en relación a Java?",
+        "Mi nombre es UcvBot 🎉. ¿Tienes alguna duda sobre la programación en Java?"
+      ]
+    },
+    {
+      "tag": "exercise_java_arrays",
+      "patterns": [
+        "Dame ejercicios de arrays en Java.",
+        "Quiero practicar arrays en Java.",
+        "Ejercicio de arrays en Java.",
+        "Actividad para practicar arrays en Java.",
+        "¿Tienes ejercicios de arrays en Java?",
+        "Necesito practicar arrays en Java.",
+        "Ejercicio práctico de arrays en Java.",
+        "Actividad con arrays en Java.",
+        "¿Algún ejercicio de arrays en Java?",
+        "Me puedes dar ejercicios de arrays para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones crea correctamente un array de enteros en Java y lo inicializa con valores?",
+          "alternatives": [
+            {
+              "content": "int[] myArray = {1, 2, 3, 4, 5};",
+              "numberIndex": 0
+            },
+            {
+              "content": "int myArray[] = new int[5];",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] myArray = new int[]{1, 2, 3, 4, 5};",
+              "numberIndex": 2
+            },
+            {
+              "content": "Todos los anteriores.",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "statement": "Escribe un programa en Java que invierta los elementos de un array de enteros.",
+          "alternatives": [
+            {
+              "content": "int[] array = new int[]{1, 2, 3, 4};\nint temp;\nfor (int i = 0; i < array.length / 2; i++) {\n    temp = array[i];\n    array[i] = array[array.length - i - 1];\n    array[array.length - i - 1] = temp;\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int[] array = new int[]{1, 2, 3, 4};\nfor (int i = 0; i < array.length; i++) {\n    int temp = array[i];\n    array[i] = array[array.length - i - 1];\n    array[array.length - i - 1] = temp;\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] array = new int[]{1, 2, 3, 4};\nfor (int i = 0; i < array.length; i++) {\n    array[i] = array[array.length - i - 1];\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int[] array = new int[]{1, 2, 3, 4};\nfor (int i = 0; i < array.length / 2; i++) {\n    array[i] = array[array.length - i - 1];\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Desarrolla un programa en Java que encuentre el valor máximo en un array de enteros.",
+          "alternatives": [
+            {
+              "content": "int[] array = {1, 5, 3, 7};\nint max = 0;\nfor (int i = 0; i < array.length; i++) {\n    if (array[i] > max) {\n        max = array[i];\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int[] array = {1, 5, 3, 7};\nint max = array[0];\nfor (int i = 1; i < array.length; i++) {\n    if (array[i] > max) {\n        max = array[i];\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] array = {1, 5, 3, 7};\nint max = 0;\nfor (int i = 1; i < array.length; i++) {\n    max = Math.max(max, array[i]);\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int[] array = {1, 5, 3, 7};\nint max = array[0];\nfor (int i = 1; i < array.length; i++) {\n    max = Math.max(max, array[i]);\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Crea un programa en Java que sume todos los elementos de un array de enteros.",
+          "alternatives": [
+            {
+              "content": "int[] numbers = {10, 20, 30};\nint sum = 0;\nfor (int num : numbers) {\n    sum += num;\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int[] numbers = {10, 20, 30};\nint sum = 0;\nfor (int i = 0; i < numbers.length; i++) {\n    sum += numbers[i];\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] numbers = {10, 20, 30};\nint sum = 0;\nfor (int num : numbers) {\n    sum = sum + num;\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int[] numbers = {10, 20, 30};\nint sum = 0;\nfor (int i = 0; i < numbers.length; i++) {\n    sum = sum + numbers[i];\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "¿Cómo se puede imprimir todos los elementos de un array de strings en Java?",
+          "alternatives": [
+            {
+              "content": "String[] words = {\"Hello\", \"World\"};\nfor (String word : words) {\n    System.out.println(word);\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "String[] words = {\"Hello\", \"World\"};\nfor (int i = 0; i < words.length; i++) {\n    System.out.println(words[i]);\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "String[] words = {\"Hello\", \"World\"};\nfor (int i = 0; i <= words.length; i++) {\n    System.out.println(words[i]);\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "String[] words = {\"Hello\", \"World\"};\nfor (String word : words) {\n    System.out.print(word + \" \");\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_do_while_loops",
+      "patterns": [
+        "Dame ejercicios de do-while loops en Java.",
+        "Quiero practicar do-while loops en Java.",
+        "Ejercicio de do-while loop en Java.",
+        "Actividad para practicar do-while loops en Java.",
+        "¿Tienes ejercicios de do-while loops en Java?",
+        "Necesito practicar do-while loops en Java.",
+        "Ejercicio práctico de do-while loop en Java.",
+        "Actividad con do-while loops en Java.",
+        "¿Algún ejercicio de do-while loops en Java?",
+        "Me puedes dar ejercicios de do-while loops para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones usa correctamente un do-while loop para imprimir los números del 1 al 5?",
+          "alternatives": [
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input;\n        do {\n            input = scanner.nextLine();\n            System.out.println(\"Ingresaste: \" + input);\n        } while (!input.equals(\"exit\"));\n        scanner.close();\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = \"\";\n        while (!input.equals(\"exit\")) {\n            input = scanner.nextLine();\n            System.out.println(\"Ingresaste: \" + input);\n        }\n        scanner.close();\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = scanner.nextLine();\n        do {\n            System.out.println(\"Ingresaste: \" + input);\n            input = scanner.nextLine();\n        } while (!input.equals(\"exit\"));\n        scanner.close();\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = scanner.nextLine();\n        while (!input.equals(\"exit\")) {\n            System.out.println(\"Ingresaste: \" + input);\n            input = scanner.nextLine();\n        }\n        scanner.close();\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes códigos repite la solicitud de entrada hasta que el usuario ingresa \"exit\"?",
+          "alternatives": [
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input;\n        do {\n            input = scanner.nextLine();\n            System.out.println(\"Ingresaste: \" + input);\n        } while (!input.equals(\"exit\"));\n        scanner.close();\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = \"\";\n        while (!input.equals(\"exit\")) {\n            input = scanner.nextLine();\n            System.out.println(\"Ingresaste: \" + input);\n        }\n        scanner.close();\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = scanner.nextLine();\n        do {\n            System.out.println(\"Ingresaste: \" + input);\n            input = scanner.nextLine();\n        } while (!input.equals(\"exit\"));\n        scanner.close();\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class PedirEntrada {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        String input = scanner.nextLine();\n        while (!input.equals(\"exit\")) {\n            System.out.println(\"Ingresaste: \" + input);\n            input = scanner.nextLine();\n        }\n        scanner.close();\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Selecciona el código que utiliza correctamente un do-while loop para sumar números ingresados por el usuario hasta que ingrese cero.",
+          "alternatives": [
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int numero, suma = 0;\n        do {\n            numero = scanner.nextInt();\n            suma += numero;\n        } while (numero != 0);\n        System.out.println(\"La suma es: \" + suma);\n        scanner.close();\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int numero = scanner.nextInt();\n        int suma = 0;\n        while (numero != 0) {\n            suma += numero;\n            numero = scanner.nextInt();\n        }\n        System.out.println(\"La suma es: \" + suma);\n        scanner.close();\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int numero = scanner.nextInt();\n        int suma = numero;\n        do {\n            numero = scanner.nextInt();\n            suma += numero;\n        } while (numero != 0);\n        System.out.println(\"La suma es: \" + suma);\n        scanner.close();\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int suma = 0, numero;\n        do {\n            numero = scanner.nextInt();\n            suma += numero;\n        } while (numero != 0);\n        System.out.println(\"La suma es: \" + suma);\n        scanner.close();\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_switch_statement",
+      "patterns": [
+        "Dame ejercicios de switch statements en Java.",
+        "Quiero practicar switch statements en Java.",
+        "Ejercicio de switch statement en Java.",
+        "Actividad para practicar switch statements en Java.",
+        "¿Tienes ejercicios de switch statements en Java?",
+        "Necesito practicar switch statements en Java.",
+        "Ejercicio práctico de switch statement en Java.",
+        "Actividad con switch statements en Java.",
+        "¿Algún ejercicio de switch statements en Java?",
+        "Me puedes dar ejercicios de switch statements para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones usa correctamente un switch statement para imprimir un mensaje basado en el día de la semana?",
+          "alternatives": [
+            {
+              "content": "public class DiaDeLaSemana {\n    public static void main(String[] args) {\n        int dia = 3;\n        switch (dia) {\n            case 1:\n                System.out.println(\"Lunes\");\n                break;\n            case 2:\n                System.out.println(\"Martes\");\n                break;\n            case 3:\n                System.out.println(\"Miércoles\");\n                break;\n            case 4:\n                System.out.println(\"Jueves\");\n                break;\n            case 5:\n                System.out.println(\"Viernes\");\n                break;\n            case 6:\n                System.out.println(\"Sábado\");\n                break;\n            case 7:\n                System.out.println(\"Domingo\");\n                break;\n            default:\n                System.out.println(\"Ese no es un día válido.\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class DiaDeLaSemana {\n    public static void main(String[] args) {\n        int dia = 3;\n        if (dia == 3) {\n            System.out.println(\"Miércoles\");\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class DiaDeLaSemana {\n    public static void main(String[] args) {\n        int dia = 8;\n        switch (dia) {\n            case 1:\n                System.out.println(\"Lunes\");\n                break;\n            case 2:\n                System.out.println(\"Martes\");\n                break;\n            case 3:\n                System.out.println(\"Miércoles\");\n                break;\n            case 4:\n                System.out.println(\"Jueves\");\n                break;\n            case 5:\n                System.out.println(\"Viernes\");\n                break;\n            case 6:\n                System.out.println(\"Sábado\");\n                break;\n            case 7:\n                System.out.println(\"Domingo\");\n                break;\n            default:\n                System.out.println(\"Ese no es un día válido.\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class DiaDeLaSemana {\n    public static void main(String[] args) {\n        String dia = \"Miércoles\";\n        switch (dia) {\n            case \"Lunes\":\n                System.out.println(\"Lunes\");\n                break;\n            case \"Martes\":\n                System.out.println(\"Martes\");\n                break;\n            case \"Miércoles\":\n                System.out.println(\"Miércoles\");\n                break;\n            case \"Jueves\":\n                System.out.println(\"Jueves\");\n                break;\n            case \"Viernes\":\n                System.out.println(\"Viernes\");\n                break;\n            case \"Sábado\":\n                System.out.println(\"Sábado\");\n                break;\n            case \"Domingo\":\n                System.out.println(\"Domingo\");\n                break;\n            default:\n                System.out.println(\"Ese no es un día válido.\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes códigos utiliza un switch statement para asignar una categoría basada en la edad?",
+          "alternatives": [
+            {
+              "content": "public class CategoriaPorEdad {\n    public static void main(String[] args) {\n        int edad = 25;\n        switch (edad) {\n            case 10:\n                System.out.println(\"Niño\");\n                break;\n            case 18:\n                System.out.println(\"Adolescente\");\n                break;\n            case 25:\n                System.out.println(\"Adulto\");\n                break;\n            default:\n                System.out.println(\"Otra categoría\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class CategoriaPorEdad {\n    public static void main(String[] args) {\n        int edad = 25;\n        String categoria;\n        if (edad < 13) {\n            categoria = \"Niño\";\n        } else if (edad < 20) {\n            categoria = \"Adolescente\";\n        } else {\n            categoria = \"Adulto\";\n        }\n        System.out.println(categoria);\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class CategoriaPorEdad {\n    public static void main(String[] args) {\n        int edad = 25;\n        String categoria = \"\";\n        switch (edad) {\n            case 12:\n                categoria = \"Niño\";\n                break;\n            case 19:\n                categoria = \"Adolescente\";\n                break;\n            case 25:\n                categoria = \"Adulto\";\n                break;\n            default:\n                categoria = \"Otra categoría\";\n                break;\n        }\n        System.out.println(categoria);\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class CategoriaPorEdad {\n    public static void main(String[] args) {\n        int edad = 30;\n        switch (edad) {\n            case 10:\n                System.out.println(\"Niño\");\n                break;\n            case 18:\n                System.out.println(\"Adolescente\");\n                break;\n            case 25:\n                System.out.println(\"Adulto\");\n                break;\n            default:\n                System.out.println(\"Otra categoría\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Selecciona el código que utiliza un switch statement para decidir la acción basada en un comando ingresado por el usuario.",
+          "alternatives": [
+            {
+              "content": "public class AccionDeComando {\n    public static void main(String[] args) {\n        String comando = \"iniciar\";\n        switch (comando) {\n            case \"iniciar\":\n                System.out.println(\"El sistema está iniciando\");\n                break;\n            case \"detener\":\n                System.out.println(\"El sistema está deteniendo\");\n                break;\n            default:\n                System.out.println(\"Comando no reconocido\");\n                break;\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class AccionDeComando {\n    public static void main(String[] args) {\n        String comando = \"iniciar\";\n        if (comando.equals(\"iniciar\")) {\n            System.out.println(\"El sistema está iniciando\");\n        } else if (comando.equals(\"detener\")) {\n            System.out.println(\"El sistema está deteniendo\");\n        } else {\n            System.out.println(\"Comando no reconocido\");\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class AccionDeComando {\n    public static void main(String[] args) {\n        String comando = \"actualizar\";\n        switch (comando) {\n            case \"iniciar\": System.out.println(\"El sistema está iniciando\"); break;\n            case \"detener\": System.out.println(\"El sistema está deteniendo\"); break;\n            default: System.out.println(\"Comando no reconocido\"); break;\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class AccionDeComando {\n    public static void main(String[] args) {\n        String comando = \"iniciar\";\n        switch (comando) {\n            case \"iniciar\": System.out.println(\"El sistema está iniciando\"); break;\n            case \"actualizar\": System.out.println(\"El sistema está actualizando\"); break;\n            default: System.out.println(\"Comando no reconocido\"); break;\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_if_statement",
+      "patterns": [
+        "Dame ejercicios de sentencias if en Java.",
+        "Quiero practicar sentencias if en Java.",
+        "Ejercicio de sentencia if en Java.",
+        "Actividad para practicar sentencias if en Java.",
+        "¿Tienes ejercicios de sentencias if en Java?",
+        "Necesito practicar sentencias if en Java.",
+        "Ejercicio práctico de sentencia if en Java.",
+        "Actividad con sentencias if en Java.",
+        "¿Algún ejercicio de sentencias if en Java?",
+        "Me puedes dar ejercicios de sentencias if para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones evalúa si un número es positivo y luego imprime un mensaje?",
+          "alternatives": [
+            {
+              "content": "public class EvaluarNumero {\n    public static void main(String[] args) {\n        int numero = 5;\n        if (numero > 0) {\n            System.out.println(\"El número es positivo.\");\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class EvaluarNumero {\n    public static void main(String[] args) {\n        int numero = 5;\n        if (numero < 0) {\n            System.out.println(\"El número es negativo.\");\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class EvaluarNumero {\n    public static void main(String[] args) {\n        int numero = -5;\n        if (numero == 0) {\n            System.out.println(\"El número es cero.\");\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class EvaluarNumero {\n    public static void main(String[] args) {\n        int numero = 0;\n        if (numero != 0) {\n            System.out.println(\"El número no es cero.\");\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes fragmentos de código usa correctamente una sentencia if para verificar si un usuario es mayor de edad?",
+          "alternatives": [
+            {
+              "content": "public class VerificarEdad {\n    public static void main(String[] args) {\n        int edad = 20;\n        if (edad >= 18) {\n            System.out.println(\"Eres mayor de edad.\");\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class VerificarEdad {\n    public static void main(String[] args) {\n        int edad = 17;\n        if (edad > 18) {\n            System.out.println(\"Eres mayor de edad.\");\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class VerificarEdad {\n    public static void main(String[] args) {\n        int edad = 18;\n        if (edad < 18) {\n            System.out.println(\"No eres mayor de edad.\");\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class VerificarEdad {\n    public static void main(String[] args) {\n        int edad = 18;\n        if (edad == 18) {\n            System.out.println(\"Justo mayor de edad.\");\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes códigos imprime un mensaje dependiendo del valor de la variable \"estado\"?",
+          "alternatives": [
+            {
+              "content": "public class VerificarEstado {\n    public static void main(String[] args) {\n        String estado = \"activo\";\n        if (estado.equals(\"activo\")) {\n            System.out.println(\"El usuario está activo.\");\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class VerificarEstado {\n    public static void main(String[] args) {\n        String estado = \"inactivo\";\n        if (estado.equals(\"activo\")) {\n            System.out.println(\"El usuario está activo.\");\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class VerificarEstado {\n    public static void main(String[] args) {\n        String estado = \"activo\";\n        if (estado.equals(\"inactivo\")) {\n            System.out.println(\"El usuario está inactivo.\");\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class VerificarEstado {\n    public static void main(String[] args) {\n        String estado = \"pendiente\";\n        if (estado.equals(\"activo\")) {\n            System.out.println(\"El usuario está activo.\");\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_while_loops",
+      "patterns": [
+        "Dame ejercicios de bucles while en Java.",
+        "Quiero practicar bucles while en Java.",
+        "Ejercicio de bucle while en Java.",
+        "Actividad para practicar bucles while en Java.",
+        "¿Tienes ejercicios de bucles while en Java?",
+        "Necesito practicar bucles while en Java.",
+        "Ejercicio práctico de bucle while en Java.",
+        "Actividad con bucles while en Java.",
+        "¿Algún ejercicio de bucles while en Java?",
+        "Me puedes dar ejercicios de bucles while para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones usa correctamente un bucle while para imprimir los números del 1 al 5?",
+          "alternatives": [
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        int i = 1;\n        while (i <= 5) {\n            System.out.println(i);\n            i++;\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 5; i++) {\n            System.out.println(i);\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        int i = 1;\n        do {\n            System.out.println(i);\n            i++;\n        } while (i <= 5);\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        int i = 6;\n        while (i <= 5) {\n            System.out.println(i);\n            i++;\n        }\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes códigos suma los números del 1 al 100 usando un bucle while?",
+          "alternatives": [
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0, i = 1;\n        while (i <= 100) {\n            suma += i;\n            i++;\n        }\n        System.out.println(\"La suma es: \" + suma);\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0, i = 1;\n        do {\n            suma += i;\n            i++;\n        } while (i <= 100);\n        System.out.println(\"La suma es: \" + suma);\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        for (int i = 1; i <= 100; i++) {\n            suma += i;\n        }\n        System.out.println(\"La suma es: \" + suma);\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        while (true) {\n            suma += 1;\n            if (suma == 100) break;\n        }\n        System.out.println(\"La suma es: \" + suma);\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Identifica el código que usa un bucle while para iterar a través de un array de números y encontrar el máximo valor.",
+          "alternatives": [
+            {
+              "content": "public class EncontrarMaximo {\n    public static void main(String[] args) {\n        int[] numeros = {10, 20, 30, 40, 50};\n        int max = 0, i = 0;\n        while ( i < numeros.length ) {\n            if ( numeros[i] > max ) {\n                max = numeros[i];\n            }\n            i++;\n        }\n        System.out.println(\"El máximo es: \" + max);\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class EncontrarMaximo {\n    public static void main(String[] args) {\n        int[] numeros = {10, 20, 30, 40, 50};\n        int max = numeros[0];\n        for (int i = 1; i < numeros.length; i++) {\n            if (numeros[i] > max) {\n                max = numeros[i];\n            }\n        }\n        System.out.println(\"El máximo es: \" + max);\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class EncontrarMaximo {\n    public static void main(String[] args) {\n        int[] numeros = {10, 20, 30, 40, 50};\n        int max = 0;\n        do {\n            max = 50; // Supuesto cálculo incorrecto\n        } while (false);\n        System.out.println(\"El máximo es: \" + max);\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class EncontrarMaximo {\n    public static void main(String[] args) {\n        int[] numeros = {10, 20, 30, 40, 50};\n        int max = 0;\n        int i = 0;\n        do {\n            if (numeros[i] > max) {\n                max = numeros[i];\n            }\n            i++;\n        } while (i < numeros.length);\n        System.out.println(\"El máximo es: \" + max);\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_for_loops",
+      "patterns": [
+        "Dame ejercicios de bucles for en Java.",
+        "Quiero practicar bucles for en Java.",
+        "Ejercicio de bucle for en Java.",
+        "Actividad para practicar bucles for en Java.",
+        "¿Tienes ejercicios de bucles for en Java?",
+        "Necesito practicar bucles for en Java.",
+        "Ejercicio práctico de bucle for en Java.",
+        "Actividad con bucles for en Java.",
+        "¿Algún ejercicio de bucles for en Java?",
+        "Me puedes dar ejercicios de bucles for para practicar."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones imprime los números del 1 al 10 en la consola?",
+          "alternatives": [
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 10; i++) {\n            System.out.println(i);\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        for (int i = 0; i < 10; i++) {\n            System.out.println(i);\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        int i = 1;\n        while (i <= 10) {\n            System.out.println(i);\n            i++;\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class ImprimirNumeros {\n    public static void main(String[] args) {\n        int i = 1;\n        do {\n            System.out.println(i);\n            i++;\n        } while (i <= 10);\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes fragmentos de código usa un bucle for para sumar los números del 1 al 100?",
+          "alternatives": [
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        for (int i = 1; i <= 100; i++) {\n            suma += i;\n        }\n        System.out.println(suma);\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        int i = 1;\n        while (i <= 100) {\n            suma += i;\n            i++;\n        }\n        System.out.println(suma);\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        int i = 1;\n        do {\n            suma += i;\n            i++;\n        } while (i <= 100);\n        System.out.println(suma);\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class SumarNumeros {\n    public static void main(String[] args) {\n        int suma = 0;\n        for (int i = 1; i < 100; i++) {\n            suma += i;\n        }\n        System.out.println(suma);\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "¿Cuál de los siguientes códigos imprime los elementos de un array utilizando un bucle for?",
+          "alternatives": [
+            {
+              "content": "public class ImprimirArray {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3, 4, 5};\n        for (int numero : numeros) {\n            System.out.println(numero);\n        }\n    }\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "public class ImprimirArray {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3, 4, 5};\n        for (int i = 0; i < numeros.length; i++) {\n            System.out.println(numeros[i]);\n        }\n    }\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "public class ImprimirArray {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3, 4, 5};\n        int i = 0;\n        while (i < numeros.length) {\n            System.out.println(numeros[i]);\n            i++;\n        }\n    }\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "public class ImprimirArray {\n    public static void main(String[] args) {\n        int[] numeros = {1, 2, 3, 4, 5};\n        int i = 0;\n        do {\n            System.out.println(numeros[i]);\n            i++;\n        } while (i < numeros.length);\n    }\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "tag": "exercise_java_basics",
+      "patterns": [
+        "Dame ejercicios básicos en Java.",
+        "Quiero practicar lo básico en Java.",
+        "Ejercicio de fundamentos en Java.",
+        "Actividad para practicar lo básico en Java.",
+        "¿Tienes ejercicios básicos en Java?",
+        "Necesito practicar fundamentos en Java.",
+        "Ejercicio práctico de fundamentos en Java.",
+        "Actividad con fundamentos en Java.",
+        "¿Algún ejercicio básico de Java?",
+        "Me puedes dar ejercicios básicos para practicar Java."
+      ],
+      "responses": [
+        {
+          "statement": "¿Cuál de las siguientes opciones imprime correctamente \"Hola, Mundo!\" en la consola en Java?",
+          "alternatives": [
+            {
+              "content": "System.out.print(\"Hola, Mundo!\")",
+              "numberIndex": 0
+            },
+            {
+              "content": "System.out.println(\"Hola, Mundo!\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "Console.log(\"Hola, Mundo!\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "System.out.printline(\"Hola, Mundo!\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Escribe un programa en Java que sume dos números enteros y muestre el resultado en la consola.",
+          "alternatives": [
+            {
+              "content": "int a = 5;\nint b = 3;\nint sum = a + b;\nSystem.out.println(\"La suma es: \" + sum);",
+              "numberIndex": 0
+            },
+            {
+              "content": "int a = 5;\nint b = 3;\nint sum = a - b;\nSystem.out.println(\"La suma es: \" + sum);",
+              "numberIndex": 1
+            },
+            {
+              "content": "int a = 5;\nint b = 3;\nint sum = a * b;\nSystem.out.println(\"La suma es: \" + sum);",
+              "numberIndex": 2
+            },
+            {
+              "content": "int a = 5;\nint b = 3;\nint sum = a / b;\nSystem.out.println(\"La suma es: \" + sum);",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Desarrolla un programa en Java que reste dos números enteros y muestre el resultado en la consola.",
+          "alternatives": [
+            {
+              "content": "int a = 9;\nint b = 4;\nint difference = a + b;\nSystem.out.println(\"La resta es: \" + difference);",
+              "numberIndex": 0
+            },
+            {
+              "content": "int a = 9;\nint b = 4;\nint difference = a * b;\nSystem.out.println(\"La resta es: \" + difference);",
+              "numberIndex": 1
+            },
+            {
+              "content": "int a = 9;\nint b = 4;\nint difference = a - b;\nSystem.out.println(\"La resta es: \" + difference);",
+              "numberIndex": 2
+            },
+            {
+              "content": "int a = 9;\nint b = 4;\nint difference = a / b;\nSystem.out.println(\"La resta es: \" + difference);",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "statement": "Crea un programa en Java que multiplique dos números enteros y muestre el resultado en la consola.",
+          "alternatives": [
+            {
+              "content": "int a = 7;\nint b = 6;\nint product = a + b;\nSystem.out.println(\"La multiplicación es: \" + product);",
+              "numberIndex": 0
+            },
+            {
+              "content": "int a = 7;\nint b = 6;\nint product = a - b;\nSystem.out.println(\"La multiplicación es: \" + product);",
+              "numberIndex": 1
+            },
+            {
+              "content": "int a = 7;\nint b = 6;\nint product = a / b;\nSystem.out.println(\"La multiplicación es: \" + product);",
+              "numberIndex": 2
+            },
+            {
+              "content": "int a = 7;\nint b = 6;\nint product = a * b;\nSystem.out.println(\"La multiplicación es: \" + product);",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "statement": "¿Cuál de las siguientes opciones es correcta para declarar y asignar una variable de tipo entero en Java?",
+          "alternatives": [
+            {
+              "content": "integer numero = 10;",
+              "numberIndex": 0
+            },
+            {
+              "content": "int numero = 10;",
+              "numberIndex": 1
+            },
+            {
+              "content": "Integer numero = 10;",
+              "numberIndex": 2
+            },
+            {
+              "content": "int numero = \"10\";",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "¿Cuál de las siguientes opciones imprime correctamente \"Hola, Java!\" en la consola en Java?",
+          "alternatives": [
+            {
+              "content": "System.out.print(\"Hola, Java!\");",
+              "numberIndex": 0
+            },
+            {
+              "content": "Console.log(\"Hola, Java!\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "System.out.println(\"Hola, Java!\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "System.out.printline(\"Hola, Java!\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "tag": "exercise_advanced_java",
+      "patterns": ["ejercicio dificil"],
+      "responses": [
+        {
+          "statement": "Escribe un programa en Java que implemente el algoritmo de ordenamiento Bubble Sort.",
+          "alternatives": [
+            {
+              "content": "int[] arr = {5, 3, 8, 4, 2};\nfor(int i = 0; i < arr.length - 1; i++) {\n    for(int j = 0; j < arr.length - 1 - i; j++) {\n        if(arr[j] > arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nSystem.out.println(Arrays.toString(arr));",
+              "numberIndex": 0
+            },
+            {
+              "content": "int[] arr = {5, 3, 8, 4, 2};\nfor(int i = 0; i < arr.length - 1; i++) {\n    for(int j = 0; j < arr.length - 1 - i; j++) {\n        if(arr[j] < arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nSystem.out.println(Arrays.toString(arr));",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] arr = {5, 3, 8, 4, 2};\nfor(int i = 0; i < arr.length - 1; i++) {\n    for(int j = 0; j < arr.length - 1 - i; j++) {\n        if(arr[j] >= arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nSystem.out.println(Arrays.toString(arr));",
+              "numberIndex": 2
+            },
+            {
+              "content": "int[] arr = {5, 3, 8, 4, 2};\nfor(int i = 0; i < arr.length - 1; i++) {\n    for(int j = 0; j < arr.length - 1 - i; j++) {\n        if(arr[j] <= arr[j + 1]) {\n            int temp = arr[j];\n            arr[j] = arr[j + 1];\n            arr[j + 1] = temp;\n        }\n    }\n}\nSystem.out.println(Arrays.toString(arr));",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Desarrolla un programa en Java que realice una búsqueda secuencial en un array de enteros.",
+          "alternatives": [
+            {
+              "content": "int[] arr = {1, 3, 5, 7, 9};\nint key = 5;\nboolean found = false;\nfor(int i = 0; i < arr.length; i++) {\n    if(arr[i] == key) {\n        found = true;\n        break;\n    }\n}\nif(found) {\n    System.out.println(\"Número encontrado\");\n} else {\n    System.out.println(\"Número no encontrado\");",
+              "numberIndex": 0
+            },
+            {
+              "content": "int[] arr = {1, 3, 5, 7, 9};\nint key = 6;\nboolean found = false;\nfor(int i = 0; i < arr.length; i++) {\n    if(arr[i] == key) {\n        found = true;\n        break;\n    }\n}\nif(found) {\n    System.out.println(\"Número encontrado\");\n} else {\n    System.out.println(\"Número no encontrado\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "int[] arr = {1, 3, 5, 7, 9};\nint key = 5;\nboolean found = false;\nfor(int i = 0; i < arr.length; i++) {\n    if(arr[i] != key) {\n        found = true;\n        break;\n    }\n}\nif(found) {\n    System.out.println(\"Número encontrado\");\n} else {\n    System.out.println(\"Número no encontrado\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "int[] arr = {1, 3, 5, 7, 9};\nint key = 5;\nboolean found = false;\nfor(int i = 0; i < arr.length; i++) {\n    if(arr[i] < key) {\n        found = true;\n        break;\n    }\n}\nif(found) {\n    System.out.println(\"Número encontrado\");\n} else {\n    System.out.println(\"Número no encontrado\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Crea un programa en Java que defina una función para calcular el factorial de un número.",
+          "alternatives": [
+            {
+              "content": "int factorial(int n) {\n    int result = 1;\n    for(int i = 1; i <= n; i++) {\n        result *= i;\n    }\n    return result;\n}\nSystem.out.println(factorial(5));",
+              "numberIndex": 0
+            },
+            {
+              "content": "int factorial(int n) {\n    int result = 1;\n    for(int i = 1; i <= n; i++) {\n        result += i;\n    }\n    return result;\n}\nSystem.out.println(factorial(5));",
+              "numberIndex": 1
+            },
+            {
+              "content": "int factorial(int n) {\n    int result = 1;\n    for(int i = 1; i <= n; i++) {\n        result -= i;\n    }\n    return result;\n}\nSystem.out.println(factorial(5));",
+              "numberIndex": 2
+            },
+            {
+              "content": "int factorial(int n) {\n    int result = 1;\n    for(int i = 1; i <= n; i++) {\n        result /= i;\n    }\n    return result;\n}\nSystem.out.println(factorial(5));",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "statement": "Desarrolla un programa en Java que determine el máximo común divisor (MCD) de dos números usando el algoritmo de Euclides.",
+          "alternatives": [
+            {
+              "content": "int gcd(int a, int b) {\n    while(b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\nSystem.out.println(gcd(48, 18));",
+              "numberIndex": 0
+            },
+            {
+              "content": "int gcd(int a, int b) {\n    while(a != 0) {\n        int temp = a;\n        a = b % a;\n        b = temp;\n    }\n    return b;\n}\nSystem.out.println(gcd(48, 18));",
+              "numberIndex": 1
+            },
+            {
+              "content": "int gcd(int a, int b) {\n    while(a == b) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}\nSystem.out.println(gcd(48, 18));",
+              "numberIndex": 2
+            },
+            {
+              "content": "int gcd(int a, int b) {\n    while(b == 0) {\n        int temp = a;\n        a = b % a;\n        b = temp;\n    }\n    return b;\n}\nSystem.out.println(gcd(48, 18));",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "statement": "Crea un programa en Java que implemente una función recursiva para calcular la serie de Fibonacci hasta el n-ésimo término.",
+          "alternatives": [
+            {
+              "content": "int fibonacci(int n) {\n    if(n <= 1) return n;\n    else return fibonacci(n - 1) + fibonacci(n - 2);\n}\nfor(int i = 0; i < 10; i++) {\n    System.out.println(fibonacci(i));\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int fibonacci(int n) {\n    if(n <= 1) return n;\n    else return fibonacci(n - 1) - fibonacci(n - 2);\n}\nfor(int i = 0; i < 10; i++) {\n    System.out.println(fibonacci(i));\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int fibonacci(int n) {\n    if(n <= 1) return n;\n    else return fibonacci(n - 2) + fibonacci(n - 3);\n}\nfor(int i = 0; i < 10; i++) {\n    System.out.println(fibonacci(i));\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int fibonacci(int n) {\n    if(n <= 1) return n;\n    else return fibonacci(n - 1) + fibonacci(n - 3);\n}\nfor(int i = 0; i < 10; i++) {\n    System.out.println(fibonacci(i));\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "tag": "exercise_intermediate_java",
+      "patterns": ["ejercicio intermedio"],
+      "responses": [
+        {
+          "statement": "Escribe un programa en Java que determine si un número es par o impar usando una estructura if.",
+          "alternatives": [
+            {
+              "content": "int num = 4;\nif(num % 2 == 0) {\n    System.out.println(\"El número es par\");\n} else {\n    System.out.println(\"El número es impar\");\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int num = 4;\nif(num % 2 != 0) {\n    System.out.println(\"El número es par\");\n} else {\n    System.out.println(\"El número es impar\");\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int num = 4;\nif(num / 2 == 0) {\n    System.out.println(\"El número es par\");\n} else {\n    System.out.println(\"El número es impar\");\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int num = 4;\nif(num / 2 != 0) {\n    System.out.println(\"El número es par\");\n} else {\n    System.out.println(\"El número es impar\");\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Desarrolla un programa en Java que imprima el nombre del mes dado un número del 1 al 12 usando una estructura switch.",
+          "alternatives": [
+            {
+              "content": "int month = 5;\nswitch(month) {\n    case 1: System.out.println(\"Enero\"); break;\n    case 2: System.out.println(\"Febrero\"); break;\n    case 3: System.out.println(\"Marzo\"); break;\n    case 4: System.out.println(\"Abril\"); break;\n    case 5: System.out.println(\"Mayo\"); break;\n    case 6: System.out.println(\"Junio\"); break;\n    case 7: System.out.println(\"Julio\"); break;\n    case 8: System.out.println(\"Agosto\"); break;\n    case 9: System.out.println(\"Septiembre\"); break;\n    case 10: System.out.println(\"Octubre\"); break;\n    case 11: System.out.println(\"Noviembre\"); break;\n    case 12: System.out.println(\"Diciembre\"); break;\n    default: System.out.println(\"Mes inválido\");\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int month = 5;\nswitch(month) {\n    case 1: System.out.println(\"Junio\"); break;\n    case 2: System.out.println(\"Noviembre\"); break;\n    case 3: System.out.println(\"Enero\"); break;\n    case 4: System.out.println(\"Octubre\"); break;\n    case 5: System.out.println(\"Mayo\"); break;\n    case 6: System.out.println(\"Febrero\"); break;\n    case 7: System.out.println(\"Abril\"); break;\n    case 8: System.out.println(\"Agosto\"); break;\n    case 9: System.out.println(\"Marzo\"); break;\n    case 10: System.out.println(\"Septiembre\"); break;\n    case 11: System.out.println(\"Diciembre\"); break;\n    case 12: System.out.println(\"Julio\"); break;\n    default: System.out.println(\"Mes inválido\");\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int month = 5;\nswitch(month) {\n    case 1: System.out.println(\"Octubre\"); break;\n    case 2: System.out.println(\"Junio\"); break;\n    case 3: System.out.println(\"Abril\"); break;\n    case 4: System.out.println(\"Agosto\"); break;\n    case 5: System.out.println(\"Febrero\"); break;\n    case 6: System.out.println(\"Enero\"); break;\n    case 7: System.out.println(\"Septiembre\"); break;\n    case 8: System.out.println(\"Mayo\"); break;\n    case 9: System.out.println(\"Julio\"); break;\n    case 10: System.out.println(\"Diciembre\"); break;\n    case 11: System.out.println(\"Noviembre\"); break;\n    case 12: System.out.println(\"Marzo\"); break;\n    default: System.out.println(\"Mes inválido\");\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int month = 5;\nswitch(month) {\n    case 1: System.out.println(\"Agosto\"); break;\n    case 2: System.out.println(\"Marzo\"); break;\n    case 3: System.out.println(\"Diciembre\"); break;\n    case 4: System.out.println(\"Octubre\"); break;\n    case 5: System.out.println(\"Enero\"); break;\n    case 6: System.out.println(\"Mayo\"); break;\n    case 7: System.out.println(\"Abril\"); break;\n    case 8: System.out.println(\"Febrero\"); break;\n    case 9: System.out.println(\"Noviembre\"); break;\n    case 10: System.out.println(\"Julio\"); break;\n    case 11: System.out.println(\"Septiembre\"); break;\n    case 12: System.out.println(\"Junio\"); break;\n    default: System.out.println(\"Mes inválido\");\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Crea un programa en Java que imprima los números del 1 al 5 usando un bucle for.",
+          "alternatives": [
+            {
+              "content": "for(int i = 1; i <= 5; i++) {\n    System.out.println(i);\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "for(int i = 5; i >= 1; i--) {\n    System.out.println(i);\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "for(int i = 1; i <= 5; i--) {\n    System.out.println(i);\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "for(int i = 5; i >= 1; i++) {\n    System.out.println(i);\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "statement": "Desarrolla un programa en Java que imprima los números del 1 al 10 usando un bucle while.",
+          "alternatives": [
+            {
+              "content": "int i = 1;\nwhile(i <= 10) {\n    System.out.println(i);\n    i++;\n}",
+              "numberIndex": 0
+            },
+            {
+              "content": "int i = 10;\nwhile(i >= 1) {\n    System.out.println(i);\n    i--;\n}",
+              "numberIndex": 1
+            },
+            {
+              "content": "int i = 1;\nwhile(i >= 10) {\n    System.out.println(i);\n    i++;\n}",
+              "numberIndex": 2
+            },
+            {
+              "content": "int i = 10;\nwhile(i <= 1) {\n    System.out.println(i);\n    i--;\n}",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "statement": "Crea un programa en Java que imprima los números del 1 al 5 usando un bucle do-while.",
+          "alternatives": [
+            {
+              "content": "int i = 1;\ndo {\n    System.out.println(i);\n    i++;\n} while(i <= 5);",
+              "numberIndex": 0
+            },
+            {
+              "content": "int i = 5;\ndo {\n    System.out.println(i);\n    i--;\n} while(i >= 1);",
+              "numberIndex": 1
+            },
+            {
+              "content": "int i = 1;\ndo {\n    System.out.println(i);\n    i--;\n} while(i <= 5);",
+              "numberIndex": 2
+            },
+            {
+              "content": "int i = 5;\ndo {\n    System.out.println(i);\n    i++;\n} while(i >= 1);",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 4
+        }
+      ]
+    },
+    {
+      "tag": "exercise_basic_java",
+      "patterns": ["ejercicio básico"],
+      "responses": [
+        {
+          "statement": "Escribe un programa en Java que imprima una breve definición de qué es Java.",
+          "alternatives": [
+            {
+              "content": "System.out.println(\"Java es un lenguaje de programación de propósito general, concurrente, orientado a objetos y basado en clases.\");",
+              "numberIndex": 0
+            },
+            {
+              "content": "System.out.println(\"Java es una plataforma de desarrollo para aplicaciones.\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "System.out.println(\"Java es un lenguaje de marcado utilizado para el diseño web.\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "System.out.println(\"Java es un sistema operativo utilizado en servidores.\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 0
+        },
+        {
+          "statement": "Desarrolla un programa en Java que declare variables de diferentes tipos de datos.",
+          "alternatives": [
+            {
+              "content": "int edad = 25;\nfloat altura = 1.75f;\nchar inicial = 'J';\nboolean esEstudiante = true;\nString nombre = \"Juan\";",
+              "numberIndex": 0
+            },
+            {
+              "content": "int edad = 25;\nfloat altura = 1.75;\nchar inicial = 'J';\nboolean esEstudiante = \"true\";\nString nombre = 'Juan';",
+              "numberIndex": 1
+            },
+            {
+              "content": "int edad = \"25\";\nfloat altura = 1.75f;\nchar inicial = J;\nboolean esEstudiante = true;\nString nombre = Juan;",
+              "numberIndex": 2
+            },
+            {
+              "content": "int edad = 25.5;\nfloat altura = 1.75f;\nchar inicial = 'J';\nboolean esEstudiante = true;\nString nombre = \"Juan\";",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 1
+        },
+        {
+          "statement": "Crea un programa en Java que realice operaciones aritméticas básicas y muestre los resultados.",
+          "alternatives": [
+            {
+              "content": "int a = 10;\nint b = 5;\nSystem.out.println(\"Suma: \" + (a + b));\nSystem.out.println(\"Resta: \" + (a - b));\nSystem.out.println(\"Multiplicación: \" + (a * b));\nSystem.out.println(\"División: \" + (a / b));",
+              "numberIndex": 0
+            },
+            {
+              "content": "int a = 10;\nint b = 5;\nSystem.out.println(\"Suma: \" + (a - b));\nSystem.out.println(\"Resta: \" + (a + b));\nSystem.out.println(\"Multiplicación: \" + (a / b));\nSystem.out.println(\"División: \" + (a * b));",
+              "numberIndex": 1
+            },
+            {
+              "content": "int a = 10;\nint b = 5;\nSystem.out.println(\"Suma: \" + (a * b));\nSystem.out.println(\"Resta: \" + (a / b));\nSystem.out.println(\"Multiplicación: \" + (a + b));\nSystem.out.println(\"División: \" + (a - b));",
+              "numberIndex": 2
+            },
+            {
+              "content": "int a = 10;\nint b = 5;\nSystem.out.println(\"Suma: \" + (a / b));\nSystem.out.println(\"Resta: \" + (a * b));\nSystem.out.println(\"Multiplicación: \" + (a - b));\nSystem.out.println(\"División: \" + (a + b));",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 2
+        },
+        {
+          "statement": "Desarrolla un programa en Java que imprima un mensaje en pantalla usando System.out.println.",
+          "alternatives": [
+            {
+              "content": "System.out.println(\"Hola, este es un mensaje en pantalla usando System.out.println\");",
+              "numberIndex": 0
+            },
+            {
+              "content": "System.out.print(\"Hola, este es un mensaje en pantalla usando System.out.println\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "System.out.println(\"Hola, este es un mensaje en pantalla usando System.out.print\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "System.out.print(\"Hola, este es un mensaje en pantalla usando System.out.print\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 3
+        },
+        {
+          "statement": "Crea un programa en Java que muestre un mensaje en un cuadro de diálogo usando JOptionPane.",
+          "alternatives": [
+            {
+              "content": "import javax.swing.JOptionPane;\nJOptionPane.showMessageDialog(null, \"Hola, este es un mensaje en un cuadro de diálogo usando JOptionPane\");",
+              "numberIndex": 0
+            },
+            {
+              "content": "import javax.swing.JOptionPane;\nJOptionPane.showMessageDialog(\"Hola, este es un mensaje en un cuadro de diálogo usando JOptionPane\");",
+              "numberIndex": 1
+            },
+            {
+              "content": "import javax.swing.JOptionPane;\nJOptionPane.showMessageDialog(null, \"Hola, este es un mensaje en pantalla usando System.out.println\");",
+              "numberIndex": 2
+            },
+            {
+              "content": "import javax.swing.JOptionPane;\nSystem.out.println(\"Hola, este es un mensaje en un cuadro de diálogo usando JOptionPane\");",
+              "numberIndex": 3
+            }
+          ],
+          "answer": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+/**Escritorio Extendido**/
+@media (min-width: 1024px) {
+  .component-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: #243659;
+  }
+
+  .header-wrapper {
+    background-color: rgb(250, 250, 250);
+    padding-left: 2%;
+  }
+}
+
+.barra-roja-inferior {
+  position: fixed;
+  height: 50px;
+  right: 0;
+  transform: translateY(-150px);
+}
+
+.button-box {
+  position: fixed;
+  height: 100px;
+  right: 13%;
+  bottom: -30px;
+  /* transform: translateY(-150px);
+  transform: translateX(-500px); */
+}
+
+.button {
+  width: 204px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e30512;
+  color: var(--Color4, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

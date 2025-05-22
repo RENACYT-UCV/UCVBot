@@ -1,0 +1,24 @@
+.result-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Color4, #FFF);
+  text-align: center;
+  font-family: Amaranth;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.result {
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}

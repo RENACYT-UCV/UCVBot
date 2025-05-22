@@ -1,0 +1,24 @@
+<aside class="main-wrapper">
+  <a class="new-chat" (click)="displayNewChat()">
+    <div class="cross-icon">
+      <div class="first-line"></div>
+      <div class="second-line"></div>
+    </div>
+    <div>Nuevo Chat</div>
+  </a>
+  <div class="chats-group">
+    <ng-container *ngIf="chats.length > 0">
+      <div class="time">Hoy</div>
+    </ng-container>
+    <ul>
+      <li
+        *ngFor="let chat of chats; trackBy: trackByChats"
+        (click)="displayOldChat(chat.id)"
+        #listItem
+      >
+        <a>{{ chat.title }} </a>
+        <div class="fade-right"></div>
+      </li>
+    </ul>
+  </div>
+</aside>

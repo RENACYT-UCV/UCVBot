@@ -1,0 +1,12 @@
+<div class="question-box">
+  <p class="question">Antes de comenzar ¿Cuál es tu nivel en Java?</p>
+</div>
+<div class="image">
+  <img src="../../../../assets/logo/UcvBot-Telefono.png" height="260" />
+</div>
+<div class="button">
+  <div *ngFor="let level of levels$ | async; index as index" class="level"
+    [ngClass]="{ selected: selectedIndex === index }" (click)="generateTest(level, index)">
+    {{ level.name }}
+  </div>
+</div>

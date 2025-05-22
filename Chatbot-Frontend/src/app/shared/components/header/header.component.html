@@ -1,0 +1,34 @@
+<header>
+  <div class="container">
+    <!-- <div class="img-container"></div> -->
+    <div class="banner">
+      <img src="../../../../assets/logo/UcvBot-Saludando.png" alt="" />
+      <div class="ucv-bot letter">
+        <p class="blue">Ucv/<span class="red">/Bot</span></p>
+      </div>
+    </div>
+    <div class="indicators-dropdown-wrapper">
+      <ng-container *ngIf="student">
+        <div class="indicators">
+          <div class="level">
+            {{ student.level?.name }}
+          </div>
+          <div class="score">🔥{{ student.score }}</div>
+        </div>
+      </ng-container>
+      <div class="dropdown">
+        <button class="letter">
+          <!-- {{ this.chatService.firstLetter + this.chatService.secondLetter }} -->
+          <!-- {{ initials }} -->
+          {{ initials$ | async }}
+        </button>
+        <div class="content">
+          <!-- <a>{{ this.chatService.usuario.email }}</a> -->
+          <!-- <a>{{ email }}</a> -->
+          <a>{{ email$ | async }}</a>
+          <a (click)="logout()">Cerrar Sesión</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

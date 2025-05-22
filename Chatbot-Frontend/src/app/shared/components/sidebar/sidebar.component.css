@@ -1,0 +1,113 @@
+.main-wrapper {
+  width: 260px;
+  height: 100%;
+  color: #ececec;
+  font-family: Inter, ui-sans-serif, -apple-system, system-ui, Segoe UI,
+      Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica,
+      Apple Color Emoji, Arial, Segoe UI Emoji, Segoe UI Symbol;
+  padding: 34px 20px;
+  background-color: #243659;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  overflow: hidden; /* Ocultar cualquier contenido desbordante */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  margin-left: -8px;
+  padding: 0;
+  font-size: 13.5px;
+  overflow: hidden; /* Ocultar cualquier contenido que desborde */
+}
+
+.new-chat {
+  font-size: 20px;
+  font-weight: 580;
+  text-align: center;
+  display: flex; /* Usar flexbox para alinear los elementos horizontalmente */
+  align-items: center; /* Centrar verticalmente los elementos en el contenedor */
+  text-decoration: none; /* Quitar el subrayado del enlace */
+  color: inherit; /* Heredar el color del texto del contenedor */
+  gap: 7px;
+}
+
+.cross-icon {
+  position: relative; /* Posicionamiento relativo para los div internos */
+  width: 20px; /* Ancho del contenedor de la cruz */
+  height: 20px; /* Altura del contenedor de la cruz */
+  margin-right: 10px; /* Espacio entre la cruz y el texto */
+}
+
+.first-line,
+.second-line {
+  position: absolute; /* Posicionamiento absoluto dentro del contenedor relativo */
+  top: 50%; /* Centrar verticalmente */
+  left: 50%; /* Centrar horizontalmente */
+  width: 14px; /* Ancho de la línea */
+  height: 3px; /* Altura de la línea */
+  background-color: rgb(250, 250, 250); /* Color de la línea */
+}
+
+.first-line {
+  transform: translate(-50%, -50%); /* Centrar la primera línea */
+}
+
+.second-line {
+  transform: translate(-50%, -50%) rotate(90deg); /* Centrar y rotar la segunda línea */
+}
+
+.new-chat,
+li {
+  padding: 10px 7px;
+  border-radius: 0.5rem;
+}
+
+.new-chat:hover,
+li:hover {
+  background-color: #3a568e;
+  cursor: pointer;
+}
+
+.time {
+  margin: 10px 0px 10px 0px;
+  font-size: 0.8em;
+  color: #cdcdcd;
+}
+
+li {
+  position: relative;
+  padding: 10px 7px;
+  border-radius: 0.5rem;
+  overflow: hidden; /* Ocultar el contenido desbordante */
+}
+
+li a {
+  white-space: nowrap; /* Evita que el texto baje de línea */
+  overflow: hidden; /* Oculta el texto desbordante */
+}
+
+.fade-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px; /* Ancho del div desvanecido */
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #243659
+  ); /* Efecto de desvanecido */
+  pointer-events: none; /* Permite hacer clic a través del div */
+}
+
+li.overflowing .fade-right {
+  display: block; /* Mostrar el desvanecido si el li tiene la clase overflowing */
+}
+
+li:hover .fade-right {
+  background: linear-gradient(90deg, transparent, #3a568e);
+}

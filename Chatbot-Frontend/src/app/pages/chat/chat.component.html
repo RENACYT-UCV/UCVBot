@@ -1,0 +1,117 @@
+<div class="component-wrapper">
+  <div id="sidebar" #sidebar>
+    <app-sidebar></app-sidebar>
+  </div>
+
+  <div class="arrow-wrapper">
+    <button
+      class="arrow-container"
+      data-state="opened"
+      #arrow
+      (click)="changeArrowState()"
+    >
+      <div class="arrow-top"></div>
+      <div class="arrow-bottom"></div>
+    </button>
+  </div>
+  <div class="main-wrapper">
+    <app-header></app-header>
+    <section id="chat">
+      <router-outlet></router-outlet>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          [(ngModel)]="mensaje"
+          name="mensaje"
+          placeholder="Chatea con UCVBot..."
+          (keyup.enter)="sendMessage(mensaje)"
+        />
+        <svg
+          viewBox="0 0 24 24"
+          height="26"
+          width="26"
+          class="input-icon"
+          (click)="sendMessage(mensaje)"
+          [attr.aria-disabled]="!mensaje ? true : null"
+        >
+          <title>send</title>
+          <path
+            fill="currentColor"
+            d="M1.101,21.757L23.8,12.028L1.101,2.3l0.011,7.912l13.623,1.816L1.112,13.845 L1.101,21.757z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+  </div>
+</div>
+
+<ng-container *ngIf="showToast">
+  <ng-container *ngIf="correctAnswer === true">
+    <div class="toast toast-success">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 50 50"
+        width="30px"
+        height="30px"
+        fill="oklch(0.3712 0.099 160)"
+      >
+        <path
+          d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 34.988281 14.988281 A 1.0001 1.0001 0 0 0 34.171875 15.439453 L 23.970703 30.476562 L 16.679688 23.710938 A 1.0001 1.0001 0 1 0 15.320312 25.177734 L 24.316406 33.525391 L 35.828125 16.560547 A 1.0001 1.0001 0 0 0 34.988281 14.988281 z"
+        />
+      </svg>
+      <div class="toast-message">{{ messageToast }}</div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="16px"
+        height="16px"
+        fill="oklch(0.3712 0.099 160)"
+        style="margin-left: 3px"
+        (click)="showToast = false"
+      >
+        <path
+          d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"
+        />
+      </svg>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="correctAnswer === false">
+    <div class="toast toast-danger">
+      <svg
+        width="35px"
+        height="35px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.0303 8.96965C9.73741 8.67676 9.26253 8.67676 8.96964 8.96965C8.67675 9.26255 8.67675 9.73742 8.96964 10.0303L10.9393 12L8.96966 13.9697C8.67677 14.2625 8.67677 14.7374 8.96966 15.0303C9.26255 15.3232 9.73743 15.3232 10.0303 15.0303L12 13.0607L13.9696 15.0303C14.2625 15.3232 14.7374 15.3232 15.0303 15.0303C15.3232 14.7374 15.3232 14.2625 15.0303 13.9696L13.0606 12L15.0303 10.0303C15.3232 9.73744 15.3232 9.26257 15.0303 8.96968C14.7374 8.67678 14.2625 8.67678 13.9696 8.96968L12 10.9393L10.0303 8.96965Z"
+          fill="oklch(0.3712 0.199 27)"
+        />
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M12 1.25C6.06294 1.25 1.25 6.06294 1.25 12C1.25 17.9371 6.06294 22.75 12 22.75C17.9371 22.75 22.75 17.9371 22.75 12C22.75 6.06294 17.9371 1.25 12 1.25ZM2.75 12C2.75 6.89137 6.89137 2.75 12 2.75C17.1086 2.75 21.25 6.89137 21.25 12C21.25 17.1086 17.1086 21.25 12 21.25C6.89137 21.25 2.75 17.1086 2.75 12Z"
+          fill="oklch(0.3712 0.199 27)"
+        />
+      </svg>
+      <div class="toast-message">
+        {{ messageToast }}
+      </div>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="16px"
+        height="16px"
+        fill="oklch(0.3712 0.099 160)"
+        style="margin-left: 3px"
+        (click)="showToast = false"
+      >
+        <path
+          d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"
+        />
+      </svg>
+    </div>
+  </ng-container>
+</ng-container>

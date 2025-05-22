@@ -1,0 +1,128 @@
+<div class="wrapper" #mensajes>
+  <ng-container *ngFor="let message of messages; trackBy: trackByMessages">
+    <ng-container *ngIf="message.role === 'user'">
+      <div class="flex-end">
+        <div class="user-message flex-end">
+          <div class="message-wrapper">
+            <div class="message">{{ message.statement }}</div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="message.role === 'bot'">
+      <div class="bot-message">
+        <img src="../../../../assets/logo/UcvBot-Caminando.png" alt="" height="38"/>
+        <div class="message">{{ message.statement }}</div>
+      </div>
+      <ng-container *ngIf="message.alternatives?.length">
+        <div>
+          <div class="options-container">
+            <h3>{{ message.answer }}</h3>
+            <ng-container
+              *ngFor="let alternative of message.alternatives; let i = index"
+            >
+              <div
+                *ngIf="alternative.numberIndex == 0"
+                class="option-wrapper"
+                [ngClass]="{
+                  'gray-background':
+                    evaluatedMessageId === message.id ||
+                    message.answered === true,
+                    'default-cursor': message.answered,
+                    'correct-border': message.answered  && evaluatedMessageId === message.id && alternative.numberIndex === correctAnswerIndex,
+                    'incorrect-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === selectedAnswerIndex && selectedAnswerIndex !== correctAnswerIndex,
+                }"
+                (click)="
+                  message.answered !== true
+                    ? evaluate(alternative.numberIndex, message)
+                    : ''
+                "
+              >
+                <div class="option">A)</div>
+                <div
+                  highlight-js
+                  [lang]="'java'"
+                  [code]="alternative.content"
+                ></div>
+              </div>
+              <div
+                *ngIf="alternative.numberIndex == 1"
+                class="option-wrapper"
+                [ngClass]="{
+                  'gray-background':
+                    evaluatedMessageId === message.id ||
+                    message.answered === true,
+                    'default-cursor': message.answered,
+                    'correct-border': message.answered  && evaluatedMessageId === message.id && alternative.numberIndex === correctAnswerIndex,
+                    'incorrect-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === selectedAnswerIndex && selectedAnswerIndex !== correctAnswerIndex,
+                }"
+                (click)="
+                  message.answered !== true
+                    ? evaluate(alternative.numberIndex, message)
+                    : ''
+                "
+              >
+                <div class="option">B)</div>
+                <div
+                  highlight-js
+                  [lang]="'java'"
+                  [code]="alternative.content"
+                ></div>
+              </div>
+            </ng-container>
+            <ng-container *ngFor="let alternative of message.alternatives">
+              <div
+                *ngIf="alternative.numberIndex == 2"
+                class="option-wrapper"
+                [ngClass]="{
+                  'gray-background':
+                    evaluatedMessageId === message.id ||
+                    message.answered === true,
+                    'default-cursor': message.answered,
+                    'correct-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === correctAnswerIndex,
+                    'incorrect-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === selectedAnswerIndex && selectedAnswerIndex !== correctAnswerIndex,
+                }"
+                (click)="
+                  message.answered !== true
+                    ? evaluate(alternative.numberIndex, message)
+                    : ''
+                "
+              >
+                <div class="option">C)</div>
+                <div
+                  highlight-js
+                  [lang]="'java'"
+                  [code]="alternative.content"
+                ></div>
+              </div>
+              <div
+                *ngIf="alternative.numberIndex == 3"
+                class="option-wrapper"
+                [ngClass]="{
+                  'gray-background':
+                    evaluatedMessageId === message.id ||
+                    message.answered === true,
+                    'default-cursor': message.answered,
+                    'correct-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === correctAnswerIndex,
+                    'incorrect-border': message.answered && evaluatedMessageId === message.id && alternative.numberIndex === selectedAnswerIndex && selectedAnswerIndex !== correctAnswerIndex,
+                }"
+                (click)="
+                  message.answered !== true
+                    ? evaluate(alternative.numberIndex, message)
+                    : ''
+                "
+              >
+                <div class="option">D)</div>
+                <div
+                  highlight-js
+                  [lang]="'java'"
+                  [code]="alternative.content"
+                ></div>
+              </div>
+            </ng-container>
+          </div>
+        </div>
+      </ng-container>
+    </ng-container>
+  </ng-container>
+</div>

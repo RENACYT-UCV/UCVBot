@@ -1,0 +1,54 @@
+<div class="options-container">
+  <div style="display: flex; align-items: center">
+    <img
+      src="../../../../../assets/logo/UcvBot-Lupa.png"
+      alt="Imagen"
+      style="width: 50px; height: auto; margin-right: 10px"
+    />
+    <p class="Pregunt">Marque la opción correcta:</p>
+  </div>
+
+  <div class="statement">{{ exercise.statement }}</div>
+  <div class="grid-container">
+    <ng-container
+      *ngFor="let alternative of exercise.alternatives; let i = index"
+    >
+      <div
+        *ngIf="alternative.numberIndex == 0"
+        class="option-wrapper"
+        [class.selected]="selectedAlternativeIndex === alternative.numberIndex"
+        (click)="evaluate(alternative.numberIndex)"
+      >
+        <div class="option">A)</div>
+        <div highlight-js [lang]="'java'" [code]="alternative.content"></div>
+      </div>
+      <div
+        *ngIf="alternative.numberIndex == 1"
+        class="option-wrapper"
+        [class.selected]="selectedAlternativeIndex === alternative.numberIndex"
+        (click)="evaluate(alternative.numberIndex)"
+      >
+        <div class="option">B)</div>
+        <div highlight-js [lang]="'java'" [code]="alternative.content"></div>
+      </div>
+      <div
+        *ngIf="alternative.numberIndex == 2"
+        class="option-wrapper"
+        [class.selected]="selectedAlternativeIndex === alternative.numberIndex"
+        (click)="evaluate(alternative.numberIndex)"
+      >
+        <div class="option">C)</div>
+        <div highlight-js [lang]="'java'" [code]="alternative.content"></div>
+      </div>
+      <div
+        *ngIf="alternative.numberIndex == 3"
+        class="option-wrapper"
+        [class.selected]="selectedAlternativeIndex === alternative.numberIndex"
+        (click)="evaluate(alternative.numberIndex)"
+      >
+        <div class="option">D)</div>
+        <div highlight-js [lang]="'java'" [code]="alternative.content"></div>
+      </div>
+    </ng-container>
+  </div>
+</div>

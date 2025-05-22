@@ -1,0 +1,32 @@
+/* .spinner-container {
+  position:relative;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  color: white;
+  display: flex;
+  align-items: center;
+} */
+
+
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.spinner-container::before {
+  content: "";
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(2px) brightness(0.5); /* Ajusta el valor de blur según lo necesites */
+  z-index: -1; /* Para que el fondo esté detrás del contenido */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+}

@@ -1,0 +1,76 @@
+<div class="wrapper">
+  <div class="conversacion">
+    <h1>
+      Hola,
+      {{ name$ | async }}
+    </h1>
+    <h3>¿En qué puedo ayudarte?</h3>
+  </div>
+
+  <div class="wrapper-suggestion-cards">
+    <div class="first-pair">
+      <div
+        *ngFor="let prompt of firstPairPrompts"
+        class="prompt-suggestion-card"
+        (click)="sendMessage(prompt)"
+      >
+        {{ prompt }}
+      </div>
+    </div>
+    <div class="second-pair">
+      <div
+        *ngFor="let prompt of secondPairPrompts"
+        class="prompt-suggestion-card"
+        (click)="sendMessage(prompt)"
+      >
+        {{ prompt }}
+      </div>
+    </div>
+  </div>
+
+  <div class="mensaje-advertencia">
+    <svg
+      version="1.0"
+      xmlns="http://www.w3.org/2000/svg"
+      width="30"
+      height="36"
+      viewBox="0 0 500.000000 500.000000"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <g
+        transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
+        fill="#000000"
+        stroke="none"
+      >
+        <path
+          d="M2360 4765 c-76 -21 -133 -51 -295 -151 -408 -255 -746 -370 -1254
+          -429 -242 -28 -347 -105 -396 -291 -34 -127 -28 -639 10 -982 104 -914 408
+          -1598 954 -2142 330 -329 719 -600 941 -656 152 -38 302 6 525 156 434 293
+          817 713 1097 1205 278 489 469 1126 523 1740 19 217 20 618 1 696 -33 141
+          -127 226 -292 264 -36 9 -136 23 -222 31 -424 40 -769 167 -1126 411 -77 53
+          -171 109 -207 125 -84 35 -183 44 -259 23z m266 -505 c384 -256 803 -405 1309
+          -467 77 -9 146 -21 153 -26 15 -12 16 -184 2 -382 -65 -876 -346 -1623 -825
+          -2192 -201 -239 -596 -580 -756 -652 -87 -40 -130 -26 -337 102 -407 253 -722
+          577 -949 974 -293 511 -443 1158 -443 1910 0 256 -7 244 165 268 561 77 954
+          220 1385 504 58 38 111 70 118 70 8 1 88 -48 178 -109z"
+        />
+        <path
+          d="M2324 3956 c-357 -229 -643 -335 -1059 -391 -147 -20 -170 -29 -186
+              -66 -14 -35 -7 -499 11 -639 62 -507 198 -907 424 -1245 147 -221 384 -455
+              615 -607 220 -145 285 -168 377 -133 91 35 354 245 519 416 477 494 746 1188
+              781 2021 10 217 3 229 -131 243 -410 42 -783 176 -1105 399 -57 40 -105 66
+              -121 66 -14 0 -69 -28 -125 -64z m864 -950 c112 -112 123 -126 120 -155 -2
+              -26 -82 -111 -493 -528 -269 -273 -512 -514 -538 -535 -29 -22 -60 -38 -75
+              -38 -21 0 -85 58 -320 293 -161 160 -300 304 -308 320 -21 39 -6 62 124 190
+              150 147 132 150 337 -53 88 -88 165 -160 170 -160 5 0 188 178 405 395 340
+              340 400 395 425 395 24 0 51 -22 153 -124z"
+        />
+      </g>
+    </svg>
+    <p>
+      Tus conversaciones las procesan revisores humanos para mejorar la
+      aplicación. No introduzcas nada que no quieras que se revise ni se
+      utilice.
+    </p>
+  </div>
+</div>

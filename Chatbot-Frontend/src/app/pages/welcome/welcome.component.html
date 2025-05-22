@@ -1,0 +1,20 @@
+<div class="component-wrapper">
+  <div class="header-wrapper">
+    <app-header></app-header>
+  </div>
+
+  <router-outlet></router-outlet>
+  <div class="button-box">
+    <button class="button" (click)="nextPage()">Siguiente</button>
+  </div>
+
+  <div class="barra-roja-inferior">
+    <svg width="80" height="1000" xmlns="http://www.w3.org/2000/svg" >
+      <rect width="14" height="1000" fill="#dc3232" x="0" y="0" />
+      <rect width="12" height="1000" fill="#dc3232" x="20" y="0" />
+      <rect width="7" height="1000" fill="#dc3232" x="42" y="0" />
+      <rect width="7" height="1000" fill="#dc3232" x="57" y="0" />
+    </svg>
+
+  </div>
+</div>

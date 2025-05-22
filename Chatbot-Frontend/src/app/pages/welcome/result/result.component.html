@@ -1,0 +1,22 @@
+<ng-container *ngIf="testApproved; else notApproved">
+  <div class="result-box">
+    <p class="result">
+      Muy bien respondiste correctamente la mayoría<br />
+      de preguntas y se te asignará el nivel {{ levelName }}
+    </p>
+  </div>
+  <div class="image">
+    <img src="../../../../assets/logo/UcvBot-Trofeo.png" height="360" />
+  </div>
+</ng-container>
+<ng-template #notApproved>
+  <div class="result-box">
+    <p class="result">
+      Lamentablemente, tus respuestas no cumplieron con las<br />
+      expectativas. Se te asignará el nivel BÁSICO
+    </p>
+  </div>
+  <div class="image">
+    <img src="../../../../assets/logo/UcvBot-Triste.png" height="260" />
+  </div>
+</ng-template>

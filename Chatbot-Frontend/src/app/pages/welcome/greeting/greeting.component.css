@@ -1,0 +1,43 @@
+.welcome-box1,
+.welcome-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Color4, #fff);
+  text-align: center;
+  font-family: Amaranth;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome1 {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+}
+
+.welcome2 {
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+.phrase-box {
+  color: var(--Color4, #fff);
+  text-align: center;
+  font-family: Amaranth;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.phrase {
+  margin-top: 3rem;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
