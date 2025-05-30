@@ -12,11 +12,12 @@ import java.util.UUID;
 public interface AdminRepository extends JpaRepository<Admin, UUID> {
 
     // Método para hacer el login
-    Optional<Admin> findByUserNameAndPassword(String userName, String password);
+    @Query("SELECT a FROM Admin a WHERE a.v_userName = :userName AND a.v_password = :password")
+    Optional<Admin> findByV_userNameAndV_password(String userName, String password);
 
     // Método para encontrar un usuario según la contraseña
     @Transactional
     @Modifying
-    @Query("UPDATE Admin a SET a.password = :password WHERE a.userName = :userName AND a.email = :email")
+    @Query("UPDATE Admin a SET a.v_password = :password WHERE a.v_userName = :userName AND a.v_email = :email")
     int resetPasswordByUserNameAndEmail(String userName, String email, String password);
 }

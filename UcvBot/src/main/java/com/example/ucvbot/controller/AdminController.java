@@ -19,47 +19,43 @@ public class AdminController {
 
     private final AdminService adminService;
 
-
     @PostMapping()
     public ResponseEntity<Admin> saveAdmin(@RequestBody Admin dto) {
-        Admin v_admin = v_adminService
-        .saveAdmin(dto);
+        Admin v_admin = adminService.saveAdmin(dto);
         return new ResponseEntity<>(v_admin, HttpStatus.CREATED);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Admin> getAdminById(@PathVariable("id") UUID id) {
-        Admin v_admin = v_adminService
-        .getAdminById(id);
+        Admin v_admin = adminService.getAdminById(id);
         return new ResponseEntity<>(v_admin, HttpStatus.OK);
     }
 
     @GetMapping()
     public ResponseEntity<List<Admin>> getAllAdmins() {
-        List<Admin> admins = v_adminService
-        .getAll();
+        List<Admin> admins = adminService.getAll();
         return new ResponseEntity<>(admins, HttpStatus.OK);
     }
 
     @PutMapping("/{id}")
     private ResponseEntity<Admin> update(@PathVariable("id") UUID id, @RequestBody Admin dto) throws Exception {
-        dto.setId(id);
-        Admin v_admin = v_adminService
-        .updateAdmin(dto, id);
+        dto.setV_id(id);
+        Admin v_admin = adminService.updateAdmin(dto, id);
         return new ResponseEntity<>(v_admin, HttpStatus.OK);
     }
 
     @PostMapping("/login")
     public ResponseEntity<Admin> login(@RequestBody Admin dto) throws Exception {
-        Optional<Admin> v_admin = v_adminService
-        .login(dto.getUserName(), dto.getPassword());
-        return v_admin.map(value -> new ResponseEntity<>(value, HttpStatus.OK)).orElseGet(() -> new ResponseEntity<>(HttpStatus.UNAUTHORIZED));
+        Optional<Admin> v_admin = adminService.login(dto.getV_userName(), dto.getV_password());
+        return v_admin.map(value -> new ResponseEntity<>(value, HttpStatus.OK))
+                .orElseGet(() -> new ResponseEntity<>(HttpStatus.UNAUTHORIZED));
     }
 
     @PostMapping("/reset-password")
     public ResponseEntity<Map<String, Boolean>> resetPassword(@RequestBody Admin dto) throws Exception {
-        boolean reseted = adminService.resetPassword(dto.getUserName(), dto.getEmail(), dto.getPassword());
-        if (reseted) return new ResponseEntity<>(Map.of("success", true), HttpStatus.OK);
+        boolean reseted = adminService.resetPassword(dto.getV_userName(), dto.getV_email(), dto.getV_password());
+        if (reseted)
+            return new ResponseEntity<>(Map.of("success", true), HttpStatus.OK);
         return new ResponseEntity<>(Map.of("success", false), HttpStatus.BAD_REQUEST);
     }
 }

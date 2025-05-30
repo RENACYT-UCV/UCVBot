@@ -21,7 +21,7 @@ public class Chat {
     @JoinColumn(name = "student_id", nullable = false, foreignKey = @ForeignKey(name = "FK_Chat_Student"))
     private Student v_student;
 
-    @OneToMany(mappedBy = "chat", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "v_chat", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Message> v_messages;
 }

@@ -16,7 +16,6 @@ public class LevelController {
 
     private final LevelService v_levelService;
 
-
     @PostMapping()
     public ResponseEntity<Level> saveLevel(@RequestBody Level dto) {
         Level v_level = v_levelService.saveLevel(dto);
@@ -37,7 +36,7 @@ public class LevelController {
 
     @PutMapping("/{id}")
     private ResponseEntity<Level> update(@PathVariable("id") Long id, @RequestBody Level dto) throws Exception {
-        dto.setId(id);
+        dto.setV_id(id);
         Level v_level = v_levelService.updateLevel(dto, id);
         return new ResponseEntity<>(v_level, HttpStatus.OK);
     }

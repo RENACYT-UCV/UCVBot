@@ -16,7 +16,6 @@ public class MessageController {
 
     private final MessageService v_messageService;
 
-
     @PostMapping("/chat/{chatId}")
     public ResponseEntity<Message> addMessage(@PathVariable Long chatId, @RequestBody Message obj) {
         Message v_message = v_messageService.addMessageToChat(chatId, obj);
@@ -31,7 +30,7 @@ public class MessageController {
 
     @PutMapping("/{id}")
     private ResponseEntity<Message> update(@PathVariable("id") Long id, @RequestBody Message obj) throws Exception {
-        obj.setId(id);
+        obj.setV_id(id);
         Message v_message = v_messageService.update(obj, id);
         return new ResponseEntity<>(v_message, HttpStatus.OK);
     }

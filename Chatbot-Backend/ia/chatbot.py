@@ -2,7 +2,7 @@ import numpy as np
 import json
 import pickle
 import spacy
-from keras.api.models import load_model
+from keras.models import load_model
 import unidecode
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -11,7 +11,7 @@ nlp = spacy.load("es_core_news_sm")
 
 
 words_patterns = pickle.load(open("data/words_patterns.pkl", "rb"))
-classes_classes = pickle.load(open("data/classes_classes.pkl", "rb"))
+classes_classes = pickle.load(open("data/classes.pkl", "rb"))
 model = load_model("data/chatbot_model.keras")
 
 

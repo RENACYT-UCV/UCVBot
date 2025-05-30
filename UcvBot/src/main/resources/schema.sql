@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS ucvbot;
+USE ucvbot;
+
+DROP TABLE IF EXISTS admin;
+DROP TABLE IF EXISTS Level;
+
+CREATE TABLE Level (
+    v_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    v_name VARCHAR(50) NOT NULL UNIQUE
+);
+
+CREATE TABLE admin (
+    v_id VARCHAR(36) PRIMARY KEY,
+    v_userName VARCHAR(20) NOT NULL UNIQUE,
+    v_password VARCHAR(8) NOT NULL,
+    v_email VARCHAR(100) NOT NULL UNIQUE,
+    CONSTRAINT CK_Password_Admin CHECK (v_password REGEXP '^[0-9]{8}$')
+); 

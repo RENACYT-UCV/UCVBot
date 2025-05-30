@@ -16,7 +16,6 @@ public class StudentController {
 
     private final StudentService v_studentService;
 
-
     @PostMapping()
     public ResponseEntity<Student> saveStudent(@RequestBody Student dto) {
         Student v_student = v_studentService.saveStudent(dto);
@@ -36,8 +35,9 @@ public class StudentController {
     }
 
     @PutMapping("/{userUID}")
-    private ResponseEntity<Student> update(@PathVariable("userUID") String userUID, @RequestBody Student dto) throws Exception {
-        dto.setUserUID(userUID);
+    private ResponseEntity<Student> update(@PathVariable("userUID") String userUID, @RequestBody Student dto)
+            throws Exception {
+        dto.setV_userUID(userUID);
         Student v_student = v_studentService.updateStudent(dto, userUID);
         return new ResponseEntity<>(v_student, HttpStatus.OK);
     }

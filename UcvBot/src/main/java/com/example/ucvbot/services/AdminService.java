@@ -33,8 +33,8 @@ public class AdminService {
         return v_adminRepository.findAll();
     }
 
-    public Optional<Admin> login(String useerName, String password) {
-        return v_adminRepository.findByUserNameAndPassword(useerName, password);
+    public Optional<Admin> login(String userName, String password) {
+        return v_adminRepository.findByV_userNameAndV_password(userName, password);
     }
 
     @Transactional
