@@ -6,20 +6,21 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "alternative")
 public class Alternative {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "v_id")
     private Long v_id;
 
-    @Column(columnDefinition = "TEXT", nullable = false)
+    @Column(name = "v_content", columnDefinition = "TEXT", nullable = false)
     private String v_content;
 
-    @Column(nullable = false)
+    @Column(name = "v_numberIndex", nullable = false)
     private Integer v_numberIndex;
 
     @ManyToOne
-    @JoinColumn(name = "message_id", nullable = false, foreignKey = @ForeignKey(name = "FK_Alternative_Message"))
-    @JsonBackReference
+    @JoinColumn(name = "message_id", nullable = false)
     private Message v_message;
 }

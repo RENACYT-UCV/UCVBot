@@ -33,7 +33,14 @@ def saveChatAndMessage():
 
         response, chatTitle = process_message(statement)
 
-        chat = {"title": chatTitle, "student": {"userUID": userUID}}
+        # Obtener el estudiante completo del backend Java
+        student_response = student_service.getStudentByUserUID(userUID)
+        if student_response.status_code == 200:
+            student = student_response.json()
+        else:
+            return jsonify({"error": "No se pudo obtener el estudiante"}), 500
+
+        chat = {"title": chatTitle, "student": student}
 
         message = {
             "statement": statement,
@@ -46,7 +53,9 @@ def saveChatAndMessage():
         savedChat = chat_service.saveChat(chat=chat).json()
         print("se guardó el chat")
         # Se obtiene el id del chat creado
-        idChat = savedChat["id"]
+        idChat = savedChat.get("id") or savedChat.get("v_id")
+        if not idChat:
+            return jsonify({"error": "No se pudo obtener el id del chat"}), 500
         # Añade un nuevo mensaje del usuario al chat según el id del chat
         message_service.saveMessage(message=message, idChat=idChat)
         print("se guardó el mensaje del user-> saveChatAndMessage()")

@@ -9,33 +9,35 @@ import java.util.List;
 
 @Data
 @Entity
+@Table(name = "message")
 public class Message {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "v_id")
     private Long v_id;
 
-    @Column(columnDefinition = "TEXT", nullable = false)
+    @Column(name = "v_statement", columnDefinition = "TEXT", nullable = false)
     private String v_statement;
 
-    @Column(nullable = false, length = 10)
+    @Column(name = "v_role", nullable = false, length = 10)
     private String v_role;
 
-    @Column(nullable = false)
+    @Column(name = "v_unixTime", nullable = false)
     private Long v_unixTime;
 
     @OneToMany(mappedBy = "v_message", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonManagedReference
     private List<Alternative> v_alternatives;
 
-    @Column(nullable = true)
+    @Column(name = "v_answer")
     private Integer v_answer;
 
-    @Column(nullable = true)
+    @Column(name = "v_answered")
     private Boolean v_answered;
 
     @ManyToOne
-    @JoinColumn(name = "chat_id", nullable = false, foreignKey = @ForeignKey(name = "FK_Message_Chat"))
+    @JoinColumn(name = "chat_id", nullable = false)
     @JsonBackReference
     private Chat v_chat;
 }
