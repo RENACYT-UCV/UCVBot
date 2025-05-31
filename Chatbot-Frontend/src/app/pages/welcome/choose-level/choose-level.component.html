@@ -5,8 +5,15 @@
   <img src="../../../../assets/logo/UcvBot-Telefono.png" height="260" />
 </div>
 <div class="button">
-  <div *ngFor="let level of levels$ | async; index as index" class="level"
-    [ngClass]="{ selected: selectedIndex === index }" (click)="generateTest(level, index)">
+  <div
+    *ngFor="let level of levels$ | async; index as index"
+    class="level"
+    [ngClass]="{ selected: selectedIndex === index }"
+    (click)="generateTest(level, index)"
+  >
     {{ level.name }}
   </div>
+</div>
+<div class="error-message" *ngIf="error">
+  {{ error }}
 </div>

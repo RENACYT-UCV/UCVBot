@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { User } from '@angular/fire/auth';
 import { Router, RouterModule } from '@angular/router';
-import { Observable, map } from 'rxjs';
+import { Observable, catchError, map, of } from 'rxjs';
 import { AuthService } from 'src/app/auth/services/auth.service';
 import { Student } from '../../interfaces/student.interface';
 import { StudentService } from 'src/app/providers/student/student.service';
@@ -24,7 +24,7 @@ export class HeaderComponent implements OnInit {
     private authService: AuthService,
     private router: Router,
     private studentService: StudentService
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     const user$ = this.authService.user;
@@ -45,26 +45,38 @@ export class HeaderComponent implements OnInit {
 
     this.authService.user.subscribe((user) => {
       const uid = user?.uid;
-      console.log('Este es el uid desde el headerrrrrrr');
-      console.log(uid);
       if (uid) {
         this.studentService
           .getStudentByUserUID(uid)
-          .subscribe((student: Student) => {
-            this.student = student;
-            console.log('Este es el estudiante desde el headerrr');
-            console.log(this.student);
+          .pipe(
+            catchError((error) => {
+              console.error('Error al obtener estudiante:', error);
+              if (error.status === 500) {
+                // Si el estudiante no existe, lo creamos
+                const newStudent: Student = {
+                  userUID: uid,
+                  userName: user?.displayName || '',
+                  email: user?.email || '',
+                  photoURL: user?.photoURL || '',
+                  level: { id: 1 },
+                  correctExercises: 0,
+                  incorrectExercises: 0,
+                  score: 0
+                };
+
+                return this.studentService.saveStudent(newStudent);
+              }
+              return of(null);
+            })
+          )
+          .subscribe((student) => {
+            if (student) {
+              this.student = student;
+              localStorage.setItem('student', JSON.stringify(student));
+            }
           });
       }
     });
-
-    // const studentString = localStorage.getItem('student');
-
-    // if (studentString) {
-    //   this.student = JSON.parse(studentString) as Student;
-    //   console.log('Este es el student logueadooo: ');
-    //   console.log(this.student);
-    // }
   }
 
   logout(): void {
